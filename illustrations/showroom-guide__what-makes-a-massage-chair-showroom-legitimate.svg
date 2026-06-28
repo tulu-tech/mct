@@ -1,0 +1,76 @@
+<svg class="illu" viewBox="0 0 460 360" role="img" aria-labelledby="i3-t i3-d" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <title id="i3-t">A simple storefront beside a standards checklist with three pine ticks</title>
+  <desc id="i3-d">Line drawing of a shopfront with an awning, door and window, next to a small card listing three checked standards, labelled STANDARDS. It shows the qualities that signal a legitimate massage-chair showroom rather than a specific store.</desc>
+
+  <!-- ground line -->
+  <line class="il-d il-dash" x1="28" y1="296" x2="432" y2="296" aria-hidden="true"/>
+
+  <!-- ===== STOREFRONT ===== -->
+  <g aria-hidden="true">
+    <!-- facade tint -->
+    <rect class="if-s" x="46" y="120" width="186" height="176" rx="3"/>
+    <!-- window glass tint -->
+    <rect class="if-w" x="62" y="176" width="64" height="86" rx="2"/>
+    <!-- door tint -->
+    <rect class="if-p" x="150" y="180" width="62" height="116" rx="2"/>
+
+    <!-- facade outline -->
+    <rect class="il-ln" x="46" y="120" width="186" height="176" rx="3" fill="none"/>
+
+    <!-- awning tint -->
+    <path class="if-t" d="M40 120 L238 120 L222 92 L56 92 Z"/>
+    <!-- awning outline -->
+    <path class="il-ln flow" pathLength="1" d="M40 120 L238 120 L222 92 L56 92 Z" fill="none"/>
+    <!-- awning scallops -->
+    <path class="il-d" d="M40 120 q9 9 18 0 q9 9 18 0 q9 9 18 0 q9 9 18 0 q9 9 18 0 q9 9 18 0 q9 9 18 0 q9 9 18 0 q9 9 18 0 q9 9 18 0 q9 9 18 0" fill="none"/>
+    <!-- awning stripes -->
+    <line class="il-d" x1="92" y1="92" x2="76" y2="120"/>
+    <line class="il-d" x1="128" y1="92" x2="112" y2="120"/>
+    <line class="il-d" x1="164" y1="92" x2="148" y2="120"/>
+    <line class="il-d" x1="200" y1="92" x2="184" y2="120"/>
+
+    <!-- window frame -->
+    <rect class="il-ln" x="62" y="176" width="64" height="86" rx="2" fill="none"/>
+    <line class="il-d" x1="94" y1="176" x2="94" y2="262"/>
+    <line class="il-d" x1="62" y1="219" x2="126" y2="219"/>
+
+    <!-- door -->
+    <rect class="il-ln" x="150" y="180" width="62" height="116" rx="2" fill="none"/>
+    <line class="il-d" x1="150" y1="180" x2="212" y2="180"/>
+    <!-- door handle -->
+    <circle class="in-t" cx="159" cy="240" r="3"/>
+  </g>
+
+  <!-- ===== STANDARDS CARD ===== -->
+  <g>
+    <!-- card tint + outline -->
+    <rect class="if-w" x="284" y="138" width="146" height="138" rx="6" aria-hidden="true"/>
+    <rect class="il-ln" x="284" y="138" width="146" height="138" rx="6" fill="none" aria-hidden="true"/>
+
+    <!-- mono tag -->
+    <text class="il-sm" x="302" y="162">STANDARDS</text>
+    <line class="il-d" x1="302" y1="170" x2="412" y2="170" aria-hidden="true"/>
+
+    <!-- check rows -->
+    <g class="cp" style="--i:1">
+      <path class="il-p flow" pathLength="1" d="M302 192 l6 7 l11 -15" fill="none"/>
+      <line class="il-d" x1="328" y1="191" x2="414" y2="191"/>
+    </g>
+    <g class="cp" style="--i:2">
+      <path class="il-p flow" pathLength="1" d="M302 220 l6 7 l11 -15" fill="none"/>
+      <line class="il-d" x1="328" y1="219" x2="414" y2="219"/>
+    </g>
+    <g class="cp" style="--i:3">
+      <path class="il-p flow" pathLength="1" d="M302 248 l6 7 l11 -15" fill="none"/>
+      <line class="il-d" x1="328" y1="247" x2="402" y2="247"/>
+    </g>
+  </g>
+
+  <!-- connector from store to card -->
+  <path class="il-p il-dash" d="M232 200 H284" fill="none" aria-hidden="true"/>
+  <circle class="in-p" cx="284" cy="200" r="3" aria-hidden="true"/>
+
+  <!-- labels -->
+  <text class="il-lbl" x="46" y="324">A real place to sit and try</text>
+  <text class="il-lbl" x="284" y="289">What to look for</text>
+</svg>

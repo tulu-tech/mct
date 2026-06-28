@@ -1,0 +1,46 @@
+<svg class="illu" viewBox="0 0 460 360" role="img" aria-labelledby="i9-t i9-d" preserveAspectRatio="xMidYMid meet">
+  <title id="i9-t">Abstract Bay Area orientation outline — guidance, not a directory.</title>
+  <desc id="i9-d">A simplified, abstract outline of the San Francisco Bay region on warm paper, with a dashed shoreline tracing an open bay. Three small hollow rings loosely orient subregions described in the page text — Peninsula, East Bay and South Bay. The graphic marks no specific stores or addresses. A stamp reads guidance, not a directory.</desc>
+
+  <!-- land mass tint, offset under lines -->
+  <path class="if-s" d="M52 64 L182 52 C214 70 226 104 214 136 C242 150 268 144 296 158 C320 170 330 196 322 222 C346 230 376 232 394 256 C402 276 396 300 372 314 L188 322 C168 300 168 270 184 252 C158 244 138 256 116 244 C100 232 100 208 116 196 C92 186 72 188 56 168 C46 150 50 124 70 112 C56 100 48 82 52 64 Z" aria-hidden="true"/>
+
+  <!-- bay void tint (water) -->
+  <path class="if-p" d="M196 132 C236 142 250 178 238 212 C228 244 196 258 168 250 C198 240 214 214 210 188 C206 162 196 146 196 132 Z" aria-hidden="true"/>
+
+  <!-- main land outline -->
+  <path class="il-ln flow" pathLength="1" d="M52 64 L182 52 C214 70 226 104 214 136 C242 150 268 144 296 158 C320 170 330 196 322 222 C346 230 376 232 394 256 C402 276 396 300 372 314 L188 322 C168 300 168 270 184 252 C158 244 138 256 116 244 C100 232 100 208 116 196 C92 186 72 188 56 168 C46 150 50 124 70 112 C56 100 48 82 52 64 Z"/>
+
+  <!-- dashed shoreline around the bay void -->
+  <path class="il-d il-dash flow" pathLength="1" d="M196 132 C236 142 250 178 238 212 C228 244 196 258 168 250 C198 240 214 214 210 188 C206 162 196 146 196 132 Z"/>
+
+  <!-- thin inland detail crease -->
+  <path class="il-d" d="M118 142 C150 150 176 156 200 174" aria-hidden="true"/>
+  <path class="il-d" d="M250 286 C272 280 296 284 318 296" aria-hidden="true"/>
+
+  <!-- abstract subregion markers (hollow rings for orientation, NOT location pins) -->
+  <g class="cp" style="--i:1">
+    <circle class="il-p" cx="118" cy="104" r="5.5" fill="none"/>
+    <text class="il-sm" x="118" y="88" text-anchor="middle">PENINSULA</text>
+  </g>
+
+  <g class="cp" style="--i:2">
+    <circle class="il-p" cx="296" cy="198" r="5.5" fill="none"/>
+    <text class="il-sm" x="296" y="182" text-anchor="middle">EAST BAY</text>
+  </g>
+
+  <g class="cp" style="--i:3">
+    <circle class="il-p" cx="234" cy="286" r="5.5" fill="none"/>
+    <text class="il-sm" x="234" y="312" text-anchor="middle">SOUTH BAY</text>
+  </g>
+
+  <!-- bay water tag -->
+  <text class="il-sm" x="205" y="196" text-anchor="middle" aria-hidden="true">BAY</text>
+
+  <!-- stamp -->
+  <g class="cp" style="--i:4">
+    <rect class="if-w" x="296" y="38" width="148" height="34" rx="4" aria-hidden="true"/>
+    <rect x="296" y="38" width="148" height="34" rx="4" fill="none" stroke="#1E5A4C" stroke-width="1.25" stroke-dasharray="3 3" aria-hidden="true"/>
+    <text class="il-sm" x="370" y="59" text-anchor="middle" fill="#1E5A4C">GUIDANCE · NOT A DIRECTORY</text>
+  </g>
+</svg>

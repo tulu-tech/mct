@@ -1,0 +1,61 @@
+<svg class="illu" viewBox="0 0 460 360" role="img" aria-labelledby="i15-t i15-d" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <title id="i15-t">Editorial guidance note pointing toward consulting a qualified professional</title>
+  <desc id="i15-d">A calm paper card with a small comfort leaf mark and tag reading NOT MEDICAL ADVICE, with a thin pine arrow pointing to an abstract person-marker labelled consult a professional.</desc>
+
+  <!-- soft ground tints (sit under the lines) -->
+  <g aria-hidden="true">
+    <rect x="42" y="74" width="190" height="208" rx="10" class="if-s"/>
+    <rect x="36" y="68" width="190" height="208" rx="10" class="if-w"/>
+  </g>
+
+  <!-- the document / card glyph -->
+  <g aria-hidden="true">
+    <rect x="36" y="68" width="190" height="208" rx="10" class="il-ln flow" pathLength="1"/>
+    <!-- text lines on the card -->
+    <line x1="60" y1="150" x2="202" y2="150" class="il-d"/>
+    <line x1="60" y1="168" x2="202" y2="168" class="il-d"/>
+    <line x1="60" y1="186" x2="178" y2="186" class="il-d"/>
+    <line x1="60" y1="220" x2="202" y2="220" class="il-d"/>
+    <line x1="60" y1="238" x2="186" y2="238" class="il-d"/>
+  </g>
+
+  <!-- comfort leaf mark, pine -->
+  <g class="cp" style="--i:1" aria-hidden="true">
+    <path d="M60 104 C 78 88, 100 88, 116 104 C 100 120, 78 120, 60 104 Z" class="if-p"/>
+    <path d="M60 104 C 78 88, 100 88, 116 104 C 100 120, 78 120, 60 104 Z" class="il-p flow" pathLength="1"/>
+    <path d="M64 104 C 84 102, 100 102, 114 104" class="il-d"/>
+  </g>
+
+  <!-- mono tag chip -->
+  <g class="cp" style="--i:2">
+    <rect x="58" y="252" width="146" height="22" rx="6" class="if-t"/>
+    <rect x="58" y="252" width="146" height="22" rx="6" class="il-t"/>
+    <text x="68" y="267" class="il-sm">NOT MEDICAL ADVICE</text>
+  </g>
+
+  <!-- thin pine arrow from card to person-marker -->
+  <g class="cp" style="--i:3" aria-hidden="true">
+    <path d="M232 152 C 290 148, 312 176, 336 190" class="il-p il-dash flow" pathLength="1"/>
+    <path d="M336 190 l -13 -3 M336 190 l -4 -12" class="il-p"/>
+  </g>
+
+  <!-- abstract person-marker (no medical symbols) -->
+  <g class="cp" style="--i:4">
+    <g aria-hidden="true">
+      <circle cx="384" cy="146" r="46" class="if-p"/>
+      <circle cx="384" cy="146" r="46" class="il-p flow" pathLength="1"/>
+      <!-- head -->
+      <circle cx="384" cy="132" r="13" class="if-w"/>
+      <circle cx="384" cy="132" r="13" class="il-ln"/>
+      <!-- shoulders -->
+      <path d="M364 172 C 368 156, 400 156, 404 172" class="if-w"/>
+      <path d="M364 172 C 368 156, 400 156, 404 172" class="il-ln"/>
+      <circle cx="384" cy="146" r="5" class="in-p"/>
+    </g>
+    <text x="384" y="222" text-anchor="middle" class="il-lbl">Consult a</text>
+    <text x="384" y="240" text-anchor="middle" class="il-lbl">professional</text>
+  </g>
+
+  <!-- small dot accent on card corner -->
+  <circle cx="206" cy="92" r="4" class="in-t" aria-hidden="true"/>
+</svg>

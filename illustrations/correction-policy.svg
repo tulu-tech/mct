@@ -1,0 +1,86 @@
+<svg class="illu" viewBox="0 0 460 360" role="img" aria-labelledby="i16-t i16-d" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <title id="i16-t">A line of text with one word being revised by a pen nib and a refresh arrow</title>
+  <desc id="i16-d">An editorial revision mark: several short dashes stand for a line of text. One dash is lifted out and corrected by a fountain-pen nib, paired with a small circular refresh arrow, under a label reading corrections. It shows that errors are fixed and the page updated openly.</desc>
+
+  <!-- soft card behind the line of text -->
+  <rect class="if-s" x="40" y="92" width="300" height="150" rx="10" aria-hidden="true"/>
+  <rect class="il-d" x="40" y="92" width="300" height="150" rx="10" fill="none" aria-hidden="true"/>
+
+  <!-- the line of "text" as short dashes, in rows -->
+  <g aria-hidden="true">
+    <!-- row 1 -->
+    <line class="il-ln" x1="64"  y1="120" x2="96"  y2="120"/>
+    <line class="il-ln" x1="106" y1="120" x2="150" y2="120"/>
+    <line class="il-ln" x1="160" y1="120" x2="188" y2="120"/>
+    <line class="il-ln" x1="198" y1="120" x2="246" y2="120"/>
+    <line class="il-ln" x1="256" y1="120" x2="288" y2="120"/>
+    <line class="il-ln" x1="298" y1="120" x2="316" y2="120"/>
+
+    <!-- row 2: contains the dash under revision -->
+    <line class="il-ln" x1="64"  y1="150" x2="100" y2="150"/>
+    <!-- struck-through (incorrect) dash, terracotta -->
+    <line class="il-t"  x1="112" y1="150" x2="160" y2="150"/>
+    <line class="il-t il-d" x1="110" y1="156" x2="162" y2="144"/>
+    <line class="il-ln" x1="172" y1="150" x2="206" y2="150"/>
+    <line class="il-ln" x1="216" y1="150" x2="260" y2="150"/>
+    <line class="il-ln" x1="270" y1="150" x2="300" y2="150"/>
+
+    <!-- corrected dash drawn fresh above the struck one, in pine -->
+    <line class="il-p flow" x1="112" y1="138" x2="158" y2="138" pathLength="1"/>
+
+    <!-- row 3 -->
+    <line class="il-ln" x1="64"  y1="180" x2="94"  y2="180"/>
+    <line class="il-ln" x1="104" y1="180" x2="148" y2="180"/>
+    <line class="il-ln" x1="158" y1="180" x2="180" y2="180"/>
+    <line class="il-ln" x1="190" y1="180" x2="236" y2="180"/>
+    <line class="il-ln" x1="246" y1="180" x2="278" y2="180"/>
+
+    <!-- row 4 (shorter, last line) -->
+    <line class="il-ln" x1="64"  y1="210" x2="108" y2="210"/>
+    <line class="il-ln" x1="118" y1="210" x2="146" y2="210"/>
+    <line class="il-ln" x1="156" y1="210" x2="196" y2="210"/>
+  </g>
+
+  <!-- caret marking the insertion point of the corrected dash -->
+  <g aria-hidden="true">
+    <path class="il-d" d="M127 162 L135 150 L143 162" fill="none"/>
+  </g>
+
+  <!-- pen nib correcting the dash -->
+  <g class="cp" style="--i:1">
+    <g aria-hidden="true">
+      <!-- nib body -->
+      <path class="if-w" d="M150 132 L196 86 L210 100 L164 146 Z"/>
+      <path class="il-ln" d="M150 132 L196 86 L210 100 L164 146 Z" fill="none"/>
+      <!-- nib slit + tine line -->
+      <line class="il-d" x1="159" y1="123" x2="201" y2="93"/>
+      <!-- nib tip vent dot -->
+      <circle class="in-p" cx="173" cy="119" r="3"/>
+      <!-- writing tip touching the corrected dash -->
+      <path class="il-p" d="M150 132 L155 137" fill="none"/>
+    </g>
+  </g>
+
+  <!-- circular refresh arrow, terracotta -->
+  <g class="cp" style="--i:2" transform="translate(372,170)">
+    <g aria-hidden="true">
+      <circle class="if-t" cx="0" cy="0" r="34"/>
+      <!-- open arc with two arrowheads (refresh) -->
+      <path class="il-t flow" d="M22 -16 A26 26 0 1 0 26 8" fill="none" pathLength="1"/>
+      <!-- top arrowhead -->
+      <path class="il-t" d="M14 -22 L22 -16 L13 -8" fill="none"/>
+      <!-- bottom arrowhead -->
+      <path class="il-t" d="M33 4 L26 8 L20 0" fill="none"/>
+      <circle class="in-t" cx="0" cy="0" r="2.5"/>
+    </g>
+  </g>
+
+  <!-- labels -->
+  <g class="cp" style="--i:3">
+    <text class="il-sm" x="40" y="78">CORRECTIONS</text>
+    <text class="il-lbl" x="372" y="226" text-anchor="middle">fixed &amp; updated</text>
+  </g>
+
+  <!-- small dashed guide tying the nib's correction to the refresh arrow -->
+  <path class="il-dash il-d" d="M214 110 C 280 120, 318 138, 344 158" fill="none" aria-hidden="true"/>
+</svg>

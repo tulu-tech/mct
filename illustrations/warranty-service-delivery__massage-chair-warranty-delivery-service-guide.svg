@@ -1,0 +1,69 @@
+<svg class="illu" viewBox="0 0 460 360" role="img" aria-labelledby="i5-t i5-d" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <title id="i5-t">What happens after you buy: warranty, service, delivery</title>
+  <desc id="i5-d">Three hand-drawn line glyphs connected left to right by a thin pine line — a warranty certificate with a seal, a service wrench, and a delivery box — each labelled in small mono type as a calm after-purchase sequence.</desc>
+
+  <!-- connecting pine path through the three stations -->
+  <path class="il-p flow" pathLength="1" d="M108 150 C 150 150, 170 150, 212 150 S 290 150, 332 150" aria-hidden="true"/>
+
+  <!-- station dots on the connecting line -->
+  <g aria-hidden="true">
+    <circle class="in-p" cx="108" cy="150" r="3.5"/>
+    <circle class="in-p" cx="220" cy="150" r="3.5"/>
+    <circle class="in-p" cx="332" cy="150" r="3.5"/>
+  </g>
+
+  <!-- ===================== STATION 1 — WARRANTY CERTIFICATE ===================== -->
+  <g class="cp" style="--i:1">
+    <!-- certificate sheet -->
+    <rect class="if-s" x="50" y="58" width="100" height="74" rx="4"/>
+    <rect class="il-ln" x="50" y="58" width="100" height="74" rx="4" fill="none"/>
+    <!-- text lines on certificate -->
+    <line class="il-d" x1="64" y1="74" x2="120" y2="74"/>
+    <line class="il-d" x1="64" y1="84" x2="136" y2="84"/>
+    <line class="il-d" x1="64" y1="94" x2="112" y2="94"/>
+    <!-- seal -->
+    <circle class="if-t" cx="120" cy="114" r="13"/>
+    <circle class="il-t" cx="120" cy="114" r="13" fill="none"/>
+    <circle class="il-t" cx="120" cy="114" r="7" fill="none"/>
+    <!-- ribbon tails -->
+    <path class="il-t" fill="none" d="M114 124 L110 138 L118 132 L122 138 L120 124"/>
+  </g>
+
+  <!-- ===================== STATION 2 — SERVICE WRENCH ===================== -->
+  <g class="cp" style="--i:2">
+    <circle class="if-p" cx="220" cy="100" r="36"/>
+    <!-- wrench glyph -->
+    <path class="il-ln" fill="none" d="M205 118
+      a11 11 0 1 1 9 -16 l 18 -18 8 8 -18 18 a11 11 0 0 1 -17 8 z"/>
+    <circle class="il-d" cx="206" cy="107" r="4.5" fill="none"/>
+  </g>
+
+  <!-- ===================== STATION 3 — DELIVERY BOX ===================== -->
+  <g class="cp" style="--i:3">
+    <!-- box body (flat axonometric) -->
+    <path class="if-s" d="M312 88 L352 76 L392 88 L392 124 L352 136 L312 124 Z"/>
+    <path class="il-ln" fill="none" d="M312 88 L352 100 L392 88"/>
+    <path class="il-ln" fill="none" d="M352 100 L352 136"/>
+    <path class="il-ln" fill="none" d="M312 88 L352 76 L392 88 L392 124 L352 136 L312 124 Z"/>
+    <!-- tape strip -->
+    <path class="il-t" fill="none" d="M352 76 L352 100"/>
+    <!-- handling guide -->
+    <line class="il-dash" x1="332" y1="64" x2="372" y2="64"/>
+    <path class="il-p" fill="none" d="M348 60 l4 -4 4 4"/>
+  </g>
+
+  <!-- ===================== LABELS ===================== -->
+  <g class="cp" style="--i:4">
+    <text class="il-sm" x="100" y="158" text-anchor="middle">WARRANTY</text>
+    <text class="il-sm" x="220" y="158" text-anchor="middle">SERVICE</text>
+    <text class="il-sm" x="352" y="158" text-anchor="middle">DELIVERY</text>
+  </g>
+
+  <!-- ===================== CAPTION ===================== -->
+  <g class="cp" style="--i:5">
+    <text class="il-ttl" x="230" y="208" text-anchor="middle">After you buy</text>
+    <text class="il-lbl" x="230" y="232" text-anchor="middle">the part most guides skip</text>
+    <line class="il-d" x1="150" y1="252" x2="310" y2="252"/>
+    <text class="il-sm" x="230" y="276" text-anchor="middle">COVERAGE · LABOR · LOGISTICS</text>
+  </g>
+</svg>

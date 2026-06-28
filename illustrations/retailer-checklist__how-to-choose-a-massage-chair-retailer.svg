@@ -1,0 +1,56 @@
+<svg class="illu" viewBox="0 0 460 360" role="img" aria-labelledby="i2-t i2-d" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <title id="i2-t">A trust ledger card for judging a massage-chair seller</title>
+  <desc id="i2-d">A paper card titled Trust Ledger with four ruled rows, each ending in a pine check mark, beside a small pine shield with a check, illustrating transparent judgement of a retailer with no awards.</desc>
+
+  <!-- soft ground panel -->
+  <rect x="34" y="36" width="300" height="292" rx="6" class="if-s" aria-hidden="true"/>
+
+  <!-- the ledger card -->
+  <g aria-hidden="true">
+    <rect x="48" y="50" width="266" height="262" rx="5" class="if-w"/>
+    <rect x="48" y="50" width="266" height="262" rx="5" class="il-ln flow" pathLength="1" fill="none"/>
+    <!-- title underline rule -->
+    <line x1="68" y1="104" x2="294" y2="104" class="il-p flow" pathLength="1"/>
+  </g>
+
+  <!-- card title -->
+  <text x="68" y="88" class="il-ttl">Trust Ledger</text>
+  <text x="68" y="124" class="il-sm" aria-hidden="true">JUDGE THE SELLER</text>
+
+  <!-- ruled rows with pine checks -->
+  <g class="cp" style="--i:1">
+    <line x1="68" y1="164" x2="252" y2="164" class="il-d" aria-hidden="true"/>
+    <text x="68" y="159" class="il-lbl">Return window stated</text>
+    <path d="M270 159 l6 7 l11 -15" class="il-p flow" pathLength="1" fill="none"/>
+  </g>
+  <g class="cp" style="--i:2">
+    <line x1="68" y1="202" x2="252" y2="202" class="il-d" aria-hidden="true"/>
+    <text x="68" y="197" class="il-lbl">Warranty in writing</text>
+    <path d="M270 197 l6 7 l11 -15" class="il-p flow" pathLength="1" fill="none"/>
+  </g>
+  <g class="cp" style="--i:3">
+    <line x1="68" y1="240" x2="252" y2="240" class="il-d" aria-hidden="true"/>
+    <text x="68" y="235" class="il-lbl">Service contact listed</text>
+    <path d="M270 235 l6 7 l11 -15" class="il-p flow" pathLength="1" fill="none"/>
+  </g>
+  <g class="cp" style="--i:4">
+    <line x1="68" y1="278" x2="252" y2="278" class="il-d" aria-hidden="true"/>
+    <text x="68" y="273" class="il-lbl">Pricing shown plainly</text>
+    <path d="M270 273 l6 7 l11 -15" class="il-p flow" pathLength="1" fill="none"/>
+  </g>
+
+  <!-- shield-with-check emblem to the side -->
+  <g class="cp" style="--i:5">
+    <path d="M388 96 l34 12 v34 c0 30 -22 46 -34 54 c-12 -8 -34 -24 -34 -54 v-34 z" class="if-p" aria-hidden="true"/>
+    <path d="M390 92 l34 12 v34 c0 30 -22 46 -34 54 c-12 -8 -34 -24 -34 -54 v-34 z" class="il-p flow" pathLength="1" fill="none"/>
+    <path d="M374 138 l10 11 l20 -26" class="il-ln flow" pathLength="1" fill="none"/>
+    <text x="390" y="222" class="il-sm" text-anchor="middle" aria-hidden="true">TRANSPARENT</text>
+  </g>
+
+  <!-- quiet note: no awards -->
+  <g class="cp" style="--i:6" aria-hidden="true">
+    <line x1="354" y1="258" x2="426" y2="258" class="il-dash il-t"/>
+    <text x="390" y="280" class="il-lbl" text-anchor="middle">No awards</text>
+    <text x="390" y="298" class="il-sm" text-anchor="middle">EVIDENCE, NOT BADGES</text>
+  </g>
+</svg>

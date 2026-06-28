@@ -1,0 +1,64 @@
+<svg class="illu" viewBox="0 0 460 360" role="img" aria-labelledby="i7-t i7-d" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <title id="i7-t">A star rating shown as an average over a spread of separate scores</title>
+  <desc id="i7-d">A serif star glyph with the number four point three beside it, an arrow pointing to a horizontal baseline. Three terracotta dots sit at different positions along the line, labelled product, retailer and service, illustrating that one star rating is an average of a wider spread of scores. Numbers are illustrative.</desc>
+
+  <!-- ===== TOP: THE AVERAGE (star + number) ===== -->
+  <g class="cp" style="--i:0">
+    <!-- soft tint behind star, offset under line -->
+    <path class="if-t" aria-hidden="true" d="M 71 47 L 79.7 64.6 L 99.2 67.5 L 85.1 81.2 L 88.4 100.6 L 71 91.4 L 53.6 100.6 L 56.9 81.2 L 42.8 67.5 L 62.3 64.6 Z"/>
+    <!-- star outline, drawn -->
+    <path class="il-ln flow" pathLength="1" d="M 69 45 L 77.7 62.6 L 97.2 65.5 L 83.1 79.2 L 86.4 98.6 L 69 89.4 L 51.6 98.6 L 54.9 79.2 L 40.8 65.5 L 60.3 62.6 Z"/>
+    <!-- big serif average number -->
+    <text class="il-num" x="120" y="86">4.3</text>
+    <text class="il-sm" x="121" y="106">AVERAGE OF MANY</text>
+  </g>
+
+  <!-- ===== ARROW: average resolves into a spread ===== -->
+  <g class="cp" style="--i:1" aria-hidden="true">
+    <path class="il-p flow" pathLength="1" d="M 95 124 C 110 150, 150 158, 196 168"/>
+    <path class="il-p" d="M 196 168 L 184 163.5 M 196 168 L 187 177"/>
+  </g>
+
+  <!-- ===== BOTTOM: THE SPREAD (baseline + dots) ===== -->
+  <g class="cp" style="--i:2">
+    <!-- baseline band tint -->
+    <rect class="if-s" aria-hidden="true" x="58" y="231" width="346" height="22" rx="3"/>
+    <!-- the baseline scale -->
+    <path class="il-ln flow" pathLength="1" d="M 60 244 L 402 244"/>
+    <!-- end ticks + a few measure ticks -->
+    <g class="il-d" aria-hidden="true">
+      <path d="M 60 237 L 60 251"/>
+      <path d="M 402 237 L 402 251"/>
+      <path class="il-dash" d="M 145 239 L 145 249 M 231 239 L 231 249 M 317 239 L 317 249"/>
+    </g>
+    <text class="il-sm" x="60" y="269">LOW</text>
+    <text class="il-sm" x="402" y="269" text-anchor="end">HIGH</text>
+  </g>
+
+  <!-- scatter dots = individual scores, each labelled -->
+  <g class="cp" style="--i:3">
+    <!-- product (lower) -->
+    <line class="il-d" aria-hidden="true" x1="178" y1="226" x2="178" y2="200"/>
+    <circle class="in-t" cx="178" cy="244" r="6.5"/>
+    <text class="il-sm" x="178" y="194" text-anchor="middle">PRODUCT</text>
+  </g>
+  <g class="cp" style="--i:4">
+    <!-- retailer (higher) -->
+    <line class="il-d" aria-hidden="true" x1="300" y1="226" x2="300" y2="178"/>
+    <circle class="in-t" cx="300" cy="244" r="6.5"/>
+    <text class="il-sm" x="300" y="172" text-anchor="middle">RETAILER</text>
+  </g>
+  <g class="cp" style="--i:5">
+    <!-- service (lowest of the three) -->
+    <line class="il-d" aria-hidden="true" x1="106" y1="226" x2="106" y2="200"/>
+    <circle class="in-t" cx="106" cy="244" r="6.5"/>
+    <text class="il-sm" x="106" y="194" text-anchor="middle">SERVICE</text>
+  </g>
+
+  <!-- caption -->
+  <g class="cp" style="--i:6">
+    <text class="il-lbl" x="60" y="305">One star is an average —</text>
+    <text class="il-lbl" x="60" y="323">read the spread underneath it.</text>
+    <text class="il-sm" x="60" y="343">FIGURES ILLUSTRATIVE</text>
+  </g>
+</svg>

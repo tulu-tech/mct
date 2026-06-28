@@ -1,0 +1,55 @@
+<svg class="illu" viewBox="0 0 460 360" role="img" aria-labelledby="i11-t i11-d" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <title id="i11-t">Editorial standards compass</title>
+  <desc id="i11-d">A pine field-guide compass with a balanced needle resting above a thin terracotta baseline, marked with a small mono tag reading standards, as a calm emblem of principled independence.</desc>
+
+  <!-- soft tint disc, offset under the line -->
+  <circle class="if-p" cx="231" cy="151" r="96" aria-hidden="true"/>
+  <circle class="if-w" cx="230" cy="150" r="60" aria-hidden="true"/>
+
+  <!-- outer compass ring -->
+  <circle class="il-p" cx="230" cy="150" r="96" fill="none"/>
+  <circle class="il-d" cx="230" cy="150" r="60" fill="none"/>
+
+  <!-- cardinal tick marks -->
+  <g class="il-d" aria-hidden="true">
+    <line x1="230" y1="42" x2="230" y2="62"/>
+    <line x1="230" y1="238" x2="230" y2="258"/>
+    <line x1="122" y1="150" x2="142" y2="150"/>
+    <line x1="318" y1="150" x2="338" y2="150"/>
+  </g>
+
+  <!-- minor ticks (diagonal) -->
+  <g class="il-d" aria-hidden="true">
+    <line x1="154" y1="74" x2="166" y2="86"/>
+    <line x1="306" y1="74" x2="294" y2="86"/>
+    <line x1="154" y1="226" x2="166" y2="214"/>
+    <line x1="306" y1="226" x2="294" y2="214"/>
+  </g>
+
+  <!-- cardinal letter -->
+  <text class="il-sm" x="230" y="34" text-anchor="middle">N</text>
+
+  <!-- needle group: terracotta pointer + pine tail, drawn -->
+  <g class="cp" style="--i:1">
+    <path class="il-t flow" pathLength="1" d="M230 150 L230 78" fill="none"/>
+    <path class="il-p flow" pathLength="1" d="M230 150 L230 222" fill="none"/>
+    <!-- needle arrow head -->
+    <path class="il-t" d="M230 78 L222 96 L238 96 Z" fill="none"/>
+  </g>
+
+  <!-- pivot -->
+  <circle class="in-p" cx="230" cy="150" r="5"/>
+
+  <!-- thin terracotta baseline beneath the emblem -->
+  <g class="cp" style="--i:2">
+    <line class="il-t flow" pathLength="1" x1="64" y1="296" x2="396" y2="296"/>
+    <!-- centre plumb tick from pivot to baseline -->
+    <line class="il-dash il-d" x1="230" y1="258" x2="230" y2="296" aria-hidden="true"/>
+    <circle class="in-t" cx="230" cy="296" r="4"/>
+  </g>
+
+  <!-- mono standards tag -->
+  <g class="cp" style="--i:3">
+    <text class="il-sm" x="230" y="322" text-anchor="middle">S T A N D A R D S</text>
+  </g>
+</svg>

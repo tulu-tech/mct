@@ -1,0 +1,53 @@
+<svg class="illu" viewBox="0 0 460 360" role="img" aria-labelledby="i4-t i4-d" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <title id="i4-t">Reading the wording on a product label</title>
+  <desc id="i4-d">A product hang-tag with lines of text under a magnifier. Two small side tags compare wording: a pine tag reads COMFORT, an amber tag reads TREATMENT with a question mark, signalling language to check carefully.</desc>
+
+  <!-- ===== MAIN LABEL / HANG-TAG ===== -->
+  <path class="if-w" d="M118 70 L262 70 Q272 70 272 80 L272 246 Q272 256 262 256 L120 256 Q110 256 110 246 L110 96 Z" transform="translate(2,2)"/>
+  <path class="il-ln" d="M116 68 L260 68 Q270 68 270 78 L270 244 Q270 254 260 254 L118 254 Q108 254 108 244 L108 94 Z"/>
+  <path class="il-d" d="M116 68 L108 94 L134 94 Z" fill="none"/>
+  <path class="if-s" d="M118 70 L112 92 L132 92 Z" transform="translate(1,1)"/>
+  <circle class="if-s" cx="124" cy="98" r="6" transform="translate(1,1)"/>
+  <circle class="il-d" cx="123" cy="97" r="6" fill="none"/>
+  <path class="il-d" d="M123 91 Q150 60 188 56" fill="none"/>
+
+  <text class="il-sm" x="132" y="120">PRODUCT LABEL</text>
+  <line class="il-d" x1="132" y1="130" x2="248" y2="130"/>
+  <g aria-hidden="true">
+    <line class="il-d" x1="132" y1="148" x2="246" y2="148"/>
+    <line class="il-d" x1="132" y1="162" x2="232" y2="162"/>
+    <line class="il-d" x1="132" y1="176" x2="246" y2="176"/>
+    <line class="il-d" x1="132" y1="190" x2="210" y2="190"/>
+  </g>
+  <rect class="if-a" x="131" y="200" width="92" height="14" rx="3"/>
+  <line class="il-d" x1="132" y1="207" x2="218" y2="207"/>
+  <text class="il-sm" x="132" y="232">CHECK WORDING</text>
+
+  <!-- ===== MAGNIFIER ===== -->
+  <g class="cp" style="--i:3">
+    <circle class="if-w" cx="206" cy="206" r="40" transform="translate(2,2)"/>
+    <circle class="il-ln" cx="204" cy="204" r="40"/>
+    <circle class="il-d" cx="204" cy="204" r="33" fill="none"/>
+    <line class="il-ln" x1="233" y1="233" x2="262" y2="262"/>
+    <path class="flow il-p" pathLength="1" d="M186 188 A26 26 0 0 1 212 182" fill="none"/>
+  </g>
+
+  <!-- ===== SIDE TAG 1 : COMFORT (pine) ===== -->
+  <g class="cp" style="--i:1">
+    <path class="if-p" d="M312 86 L408 86 Q416 86 416 94 L416 120 Q416 128 408 128 L312 128 L300 107 Z" transform="translate(2,2)"/>
+    <path class="il-p" d="M310 84 L406 84 Q414 84 414 92 L414 118 Q414 126 406 126 L310 126 L298 105 Z" fill="none"/>
+    <circle class="in-p" cx="316" cy="105" r="4"/>
+    <text class="il-lbl" x="332" y="110">COMFORT</text>
+  </g>
+
+  <!-- ===== SIDE TAG 2 : TREATMENT? (amber caution) ===== -->
+  <g class="cp" style="--i:2">
+    <path class="if-a" d="M312 168 L412 168 Q420 168 420 176 L420 202 Q420 210 412 210 L312 210 L300 189 Z" transform="translate(2,2)"/>
+    <path class="il-ln" d="M310 166 L410 166 Q418 166 418 174 L418 200 Q418 208 410 208 L310 208 L298 187 Z" fill="none"/>
+    <circle class="in-a" cx="316" cy="187" r="4"/>
+    <text class="il-lbl" x="332" y="192">TREATMENT?</text>
+  </g>
+
+  <path class="il-dash il-d" d="M226 207 Q268 200 300 196" fill="none"/>
+  <text class="il-sm" x="298" y="248">READ THE LANGUAGE</text>
+</svg>

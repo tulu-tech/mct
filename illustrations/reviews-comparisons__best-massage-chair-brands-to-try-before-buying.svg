@@ -1,0 +1,92 @@
+<svg class="illu" viewBox="0 0 460 360" role="img" aria-labelledby="i10-t i10-d" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <title id="i10-t">A neutral index of unnamed brands</title>
+  <desc id="i10-d">A vertical column of four blank entity cards, each with a leading terracotta dot and a placeholder name line, set beside a legend of three compare-axes tags reading FIT, WARRANTY and SERVICE. No logos, no ranking, no stars.</desc>
+
+  <!-- soft sand panel behind the index -->
+  <g aria-hidden="true">
+    <rect x="36" y="44" width="206" height="284" rx="10" class="if-s"/>
+    <rect x="34" y="42" width="206" height="284" rx="10" class="il-d" fill="none"/>
+  </g>
+
+  <!-- index header -->
+  <text x="52" y="74" class="il-sm">A — Z  INDEX</text>
+  <line x1="52" y1="84" x2="222" y2="84" class="il-d il-dash"/>
+
+  <!-- blank entity cards (no names, no logos) -->
+  <!-- card 1 -->
+  <g class="cp" style="--i:1">
+    <rect x="54" y="98" width="170" height="40" rx="6" class="if-w"/>
+    <rect x="52" y="96" width="170" height="40" rx="6" class="il-ln flow" pathLength="1" fill="none"/>
+    <circle cx="70" cy="116" r="5" class="in-t"/>
+    <line x1="86" y1="110" x2="200" y2="110" class="il-d"/>
+    <line x1="86" y1="122" x2="168" y2="122" class="il-d"/>
+  </g>
+  <!-- card 2 -->
+  <g class="cp" style="--i:2">
+    <rect x="54" y="146" width="170" height="40" rx="6" class="if-w"/>
+    <rect x="52" y="144" width="170" height="40" rx="6" class="il-ln" fill="none"/>
+    <circle cx="70" cy="164" r="5" class="in-t"/>
+    <line x1="86" y1="158" x2="194" y2="158" class="il-d"/>
+    <line x1="86" y1="170" x2="156" y2="170" class="il-d"/>
+  </g>
+  <!-- card 3 -->
+  <g class="cp" style="--i:3">
+    <rect x="54" y="194" width="170" height="40" rx="6" class="if-w"/>
+    <rect x="52" y="192" width="170" height="40" rx="6" class="il-ln" fill="none"/>
+    <circle cx="70" cy="212" r="5" class="in-t"/>
+    <line x1="86" y1="206" x2="204" y2="206" class="il-d"/>
+    <line x1="86" y1="218" x2="172" y2="218" class="il-d"/>
+  </g>
+  <!-- card 4 -->
+  <g class="cp" style="--i:4">
+    <rect x="54" y="242" width="170" height="40" rx="6" class="if-w"/>
+    <rect x="52" y="240" width="170" height="40" rx="6" class="il-ln" fill="none"/>
+    <circle cx="70" cy="260" r="5" class="in-t"/>
+    <line x1="86" y1="254" x2="188" y2="254" class="il-d"/>
+    <line x1="86" y1="266" x2="148" y2="266" class="il-d"/>
+  </g>
+
+  <!-- "same axes" footnote inside panel -->
+  <text x="52" y="308" class="il-sm">COMPARED THE SAME WAY</text>
+
+  <!-- connector: index reads across to the shared legend -->
+  <g aria-hidden="true">
+    <path d="M222 174 C 256 174, 268 130, 300 130" class="il-p flow" pathLength="1" fill="none"/>
+    <circle cx="300" cy="130" r="3.5" class="in-p"/>
+  </g>
+
+  <!-- legend of compare-axes -->
+  <text x="300" y="88" class="il-ttl">Same axes</text>
+
+  <!-- FIT tag -->
+  <g class="cp" style="--i:5">
+    <rect x="300" y="106" width="118" height="42" rx="6" class="if-p"/>
+    <rect x="298" y="104" width="118" height="42" rx="6" class="il-p" fill="none"/>
+    <circle cx="316" cy="125" r="4" class="in-p"/>
+    <text x="330" y="123" class="il-lbl">Fit</text>
+    <text x="330" y="138" class="il-sm">BODY + SEAT</text>
+  </g>
+  <!-- WARRANTY tag -->
+  <g class="cp" style="--i:6">
+    <rect x="300" y="158" width="118" height="42" rx="6" class="if-p"/>
+    <rect x="298" y="156" width="118" height="42" rx="6" class="il-p" fill="none"/>
+    <circle cx="316" cy="177" r="4" class="in-p"/>
+    <text x="330" y="175" class="il-lbl">Warranty</text>
+    <text x="330" y="190" class="il-sm">YEARS + PARTS</text>
+  </g>
+  <!-- SERVICE tag -->
+  <g class="cp" style="--i:7">
+    <rect x="300" y="210" width="118" height="42" rx="6" class="if-p"/>
+    <rect x="298" y="208" width="118" height="42" rx="6" class="il-p" fill="none"/>
+    <circle cx="316" cy="229" r="4" class="in-p"/>
+    <text x="330" y="227" class="il-lbl">Service</text>
+    <text x="330" y="242" class="il-sm">REACH + SPEED</text>
+  </g>
+
+  <!-- "never ranked" note: no numbers, equal weight -->
+  <g class="cp" style="--i:8">
+    <line x1="298" y1="270" x2="416" y2="270" class="il-d il-dash"/>
+    <text x="300" y="290" class="il-sm">NO RANK · NO STARS</text>
+    <text x="300" y="306" class="il-sm">EQUAL WEIGHT</text>
+  </g>
+</svg>

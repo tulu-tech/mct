@@ -1,0 +1,76 @@
+<svg class="illu" viewBox="0 0 460 360" role="img" aria-labelledby="i6-t i6-d" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <title id="i6-t">Two doors to the same decision</title>
+  <desc id="i6-d">A browser-window glyph labelled Online sits beside a storefront-door glyph labelled Showroom. Both connect down to a short shared spine of three dots tagged Same Questions, showing each path leads to the same evaluation.</desc>
+
+  <!-- ===== ONLINE: browser window (left) ===== -->
+  <g transform="translate(40,44)">
+    <!-- window body -->
+    <rect class="if-w" x="2" y="2" width="150" height="116" rx="7"/>
+    <rect class="il-ln" x="0" y="0" width="150" height="116" rx="7" fill="none" pathLength="1"/>
+    <!-- title bar -->
+    <path class="il-d" d="M0 26 H150" fill="none"/>
+    <rect class="if-p" x="0" y="0" width="150" height="26" rx="7"/>
+    <path class="il-d" d="M0 26 H150" fill="none"/>
+    <!-- traffic dots -->
+    <circle class="in-t" cx="16" cy="13" r="3.5"/>
+    <circle class="in-p" cx="29" cy="13" r="3.5"/>
+    <circle cx="42" cy="13" r="3.5" fill="#33383B"/>
+    <!-- url field -->
+    <rect class="if-s" x="58" y="7.5" width="80" height="11" rx="5.5"/>
+    <!-- page content: a chair side-profile glyph -->
+    <g transform="translate(40,44)">
+      <path class="il-p" d="M6 48 L6 8 Q6 2 13 4 L30 12 L62 12" fill="none" stroke-linejoin="round"/>
+      <path class="il-p" d="M30 12 L34 40 L62 40" fill="none" stroke-linejoin="round"/>
+      <path class="il-d" d="M62 12 L62 40" fill="none"/>
+      <path class="il-d" d="M14 48 L14 56 M58 40 L58 56 M10 56 L62 56" fill="none"/>
+    </g>
+  </g>
+  <g class="cp" style="--i:1">
+    <text class="il-lbl" x="115" y="156" text-anchor="middle">Online</text>
+    <text class="il-sm" x="115" y="170" text-anchor="middle">SCREEN</text>
+  </g>
+
+  <!-- ===== SHOWROOM: storefront door (right) ===== -->
+  <g transform="translate(270,40)">
+    <!-- awning / lintel -->
+    <path class="il-d" d="M-6 26 H156" fill="none"/>
+    <!-- store box -->
+    <rect class="if-s" x="6" y="26" width="138" height="94"/>
+    <rect class="il-ln" x="6" y="26" width="138" height="94" fill="none" pathLength="1"/>
+    <!-- roofline -->
+    <path class="if-t" d="M-2 26 L75 2 L152 26 Z"/>
+    <path class="il-ln" d="M-2 26 L75 2 L152 26" fill="none" stroke-linejoin="round" pathLength="1"/>
+    <!-- door -->
+    <rect class="if-w" x="56" y="44" width="38" height="76"/>
+    <path class="il-t" d="M56 120 V44 H94 V120" fill="none" stroke-linejoin="round"/>
+    <path class="il-d" d="M56 64 H94" fill="none"/>
+    <circle class="in-t" cx="88" cy="84" r="2.6"/>
+    <!-- side windows -->
+    <rect class="if-p" x="20" y="48" width="24" height="34"/>
+    <path class="il-d" d="M20 48 H44 V82 H20 Z M20 65 H44 M32 48 V82" fill="none"/>
+    <rect class="if-p" x="106" y="48" width="24" height="34"/>
+    <path class="il-d" d="M106 48 H130 V82 H106 Z M106 65 H130 M118 48 V82" fill="none"/>
+  </g>
+  <g class="cp" style="--i:2">
+    <text class="il-lbl" x="345" y="156" text-anchor="middle">Showroom</text>
+    <text class="il-sm" x="345" y="170" text-anchor="middle">DOOR</text>
+  </g>
+
+  <!-- ===== shared spine joining both down to dots ===== -->
+  <path class="il-ln flow" d="M115 174 L115 214 Q115 230 130 230 L330 230 Q345 230 345 214 L345 174" fill="none" pathLength="1"/>
+  <path class="il-p flow" d="M230 230 L230 254" fill="none" pathLength="1"/>
+
+  <!-- spine of dots -->
+  <g class="cp" style="--i:3">
+    <circle class="in-p" cx="194" cy="282" r="6"/>
+    <circle class="in-t" cx="230" cy="282" r="6"/>
+    <circle class="in-p" cx="266" cy="282" r="6"/>
+    <path class="il-d" d="M200 282 H224 M236 282 H260" fill="none"/>
+  </g>
+
+  <!-- spine label -->
+  <g class="cp" style="--i:4">
+    <text class="il-ttl" x="230" y="320" text-anchor="middle">Same questions</text>
+    <text class="il-sm" x="230" y="338" text-anchor="middle">EITHER WAY</text>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg class="illu" viewBox="0 0 460 360" role="img" aria-labelledby="i14-t i14-d" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <title id="i14-t">Independence emblem</title>
+  <desc id="i14-d">An open book in pine ink beside a small circle holding a struck-through dollar sign, marking that ranking cannot be bought. A mono tag reads INDEPENDENT.</desc>
+
+  <!-- soft underlay tints (offset 1-2px under lines) -->
+  <g aria-hidden="true">
+    <path class="if-s" d="M61 118 C108 100 150 100 178 118 L178 244 C150 226 108 226 61 244 Z"/>
+    <path class="if-p" d="M179 118 C207 100 249 100 296 118 L296 244 C249 226 207 226 179 244 Z"/>
+    <circle class="if-w" cx="355" cy="143" r="46"/>
+  </g>
+
+  <!-- OPEN BOOK glyph -->
+  <g class="cp" style="--i:1">
+    <!-- spine / center gutter -->
+    <path class="il-p flow" pathLength="1" d="M178 119 L178 244"/>
+    <!-- left page outline -->
+    <path class="il-ln flow" pathLength="1" d="M178 119 C150 101 108 101 61 119 L61 245 C108 227 150 227 178 245"/>
+    <!-- right page outline -->
+    <path class="il-p flow" pathLength="1" d="M178 119 C207 101 249 101 296 119 L296 245 C249 227 207 227 178 245"/>
+    <!-- page-base shadow lines -->
+    <path class="il-d" d="M62 248 C108 231 150 231 177 248"/>
+    <path class="il-d" d="M179 248 C206 231 249 231 295 248"/>
+  </g>
+
+  <!-- text lines on the pages (detail) -->
+  <g class="cp" style="--i:2" aria-hidden="true">
+    <path class="il-d" d="M82 142 C112 130 144 130 166 140"/>
+    <path class="il-d" d="M80 160 C112 149 145 149 168 158"/>
+    <path class="il-d" d="M79 178 C112 168 146 168 169 176"/>
+    <path class="il-d" d="M191 140 C214 130 246 130 276 142"/>
+    <path class="il-d" d="M190 158 C213 149 246 149 277 160"/>
+    <path class="il-d" d="M190 176 C214 168 247 168 278 178"/>
+  </g>
+
+  <!-- NO PAY-TO-RANK coin: circle with struck-through $ -->
+  <g class="cp" style="--i:3">
+    <circle class="il-t flow" pathLength="1" cx="355" cy="143" r="46"/>
+    <!-- dollar sign, thin -->
+    <path class="il-d" d="M355 121 L355 165"/>
+    <path class="il-d" d="M367 130 C367 124 361 121 355 121 C349 121 343 124 343 130 C343 136 349 139 355 143 C361 147 367 150 367 156 C367 162 361 165 355 165 C349 165 343 162 343 156"/>
+    <!-- strike-through (terracotta, the "no") -->
+    <path class="il-t flow" pathLength="1" d="M329 169 L381 117"/>
+    <circle class="in-t" cx="355" cy="143" r="2.6"/>
+  </g>
+
+  <!-- connecting hairline pine->terracotta between book and coin -->
+  <path class="il-d il-dash" d="M298 165 C320 168 332 158 312 150" aria-hidden="true"/>
+
+  <!-- labels -->
+  <g class="cp" style="--i:4">
+    <text class="il-lbl" x="129" y="280" text-anchor="middle">Open by design</text>
+    <text class="il-lbl" x="355" y="208" text-anchor="middle">No pay-to-rank</text>
+  </g>
+
+  <!-- mono tag -->
+  <g class="cp" style="--i:5">
+    <line class="il-p" x1="61" y1="316" x2="103" y2="316"/>
+    <text class="il-sm" x="113" y="320">INDEPENDENT</text>
+    <text class="il-sm" x="220" y="320">EDITORIAL — NOT FOR SALE</text>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+<svg class="illu" viewBox="0 0 460 360" role="img" aria-labelledby="i8-t i8-d" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <title id="i8-t">Abstract map of California with pins marking showroom regions</title>
+  <desc id="i8-d">A simplified line drawing of the California landmass with a dashed coastline along the west edge and four terracotta map pins placed at northern, bay, central, and southern regions. A small stamp reads Guidance, not a directory. This page offers regional orientation for visiting showrooms, not a list of stores.</desc>
+
+  <!-- soft sand backdrop panel -->
+  <rect class="if-s" x="28" y="24" width="404" height="312" rx="10" aria-hidden="true"/>
+
+  <!-- landmass tint fill (offset under the ink line) -->
+  <path class="if-p" aria-hidden="true" d="M150 52
+    L196 56 L208 86 L236 112 L262 150 L286 182
+    L300 214 L322 238 L338 270 L350 300 L334 316
+    L300 308 L276 288 L250 276 L222 250 L196 222
+    L172 198 L150 170 L138 138 L132 104 L138 74 Z"/>
+
+  <!-- landmass ink outline (east/inland edge) -->
+  <path class="il-ln flow" pathLength="1" d="M150 52
+    L196 56 L208 86 L236 112 L262 150 L286 182
+    L300 214 L322 238 L338 270 L350 300 L334 316
+    L300 308 L276 288 L250 276 L222 250 L196 222"/>
+
+  <!-- dashed coastline (west edge) -->
+  <path class="il-d il-dash flow" pathLength="1" d="M196 222
+    L172 198 L150 170 L138 138 L132 104 L138 74 L150 52" aria-hidden="true"/>
+
+  <!-- coastline label -->
+  <text class="il-sm" x="118" y="142" text-anchor="end">COAST</text>
+  <line class="il-d" x1="122" y1="138" x2="138" y2="130" aria-hidden="true"/>
+
+  <!-- pins: shape = teardrop, never color alone -->
+  <!-- NORTH -->
+  <g class="cp" style="--i:1">
+    <path class="il-t" d="M178 96 C178 86 192 86 192 96 C192 104 185 112 185 112 C185 112 178 104 178 96 Z"/>
+    <circle class="in-t" cx="185" cy="96" r="3.4"/>
+    <text class="il-sm" x="200" y="100">NORTH</text>
+  </g>
+
+  <!-- BAY -->
+  <g class="cp" style="--i:2">
+    <path class="il-t" d="M186 156 C186 146 200 146 200 156 C200 164 193 172 193 172 C193 172 186 164 186 156 Z"/>
+    <circle class="in-t" cx="193" cy="156" r="3.4"/>
+    <text class="il-sm" x="208" y="160">BAY</text>
+  </g>
+
+  <!-- CENTRAL -->
+  <g class="cp" style="--i:3">
+    <path class="il-t" d="M236 210 C236 200 250 200 250 210 C250 218 243 226 243 226 C243 226 236 218 236 210 Z"/>
+    <circle class="in-t" cx="243" cy="210" r="3.4"/>
+    <text class="il-sm" x="258" y="214">CENTRAL</text>
+  </g>
+
+  <!-- SOUTH -->
+  <g class="cp" style="--i:4">
+    <path class="il-t" d="M296 274 C296 264 310 264 310 274 C310 282 303 290 303 290 C303 290 296 282 296 274 Z"/>
+    <circle class="in-t" cx="303" cy="274" r="3.4"/>
+    <text class="il-sm" x="318" y="278">SOUTH</text>
+  </g>
+
+  <!-- stamp: GUIDANCE - NOT A DIRECTORY -->
+  <g aria-hidden="true">
+    <rect class="il-d" x="52" y="288" width="172" height="34" rx="5" fill="none"/>
+    <text class="il-sm" x="138" y="303" text-anchor="middle">GUIDANCE</text>
+    <text class="il-sm" x="138" y="316" text-anchor="middle">NOT A DIRECTORY</text>
+  </g>
+</svg>

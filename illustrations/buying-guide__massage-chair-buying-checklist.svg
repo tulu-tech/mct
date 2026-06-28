@@ -1,0 +1,76 @@
+<svg class="illu" viewBox="0 0 460 360" role="img" aria-labelledby="i0-t i0-d" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <title id="i0-t">Buying checklist field card</title>
+  <desc id="i0-d">A paper field card with a clip at the top and six ruled rows. The first four rows have pine-ink ticks in soft squares; the last two squares are empty. A thin terracotta rule below shows progress part-way across, indicating a calm checklist you work through.</desc>
+
+  <!-- soft drop tint offset under card for hand-printed feel -->
+  <rect class="if-s" x="72" y="48" width="318" height="280" rx="6" aria-hidden="true"/>
+  <!-- card -->
+  <rect class="if-w" x="68" y="44" width="318" height="280" rx="6" aria-hidden="true"/>
+  <rect class="il-ln" x="68" y="44" width="318" height="280" rx="6" fill="none"/>
+
+  <!-- clip at top -->
+  <g aria-hidden="true">
+    <rect class="if-p" x="198" y="30" width="60" height="26" rx="5"/>
+    <rect class="il-ln" x="198" y="30" width="60" height="26" rx="5" fill="none"/>
+    <line class="il-d" x1="214" y1="36" x2="242" y2="36"/>
+  </g>
+
+  <!-- header tag -->
+  <text class="il-sm" x="92" y="84">BUYING CHECKLIST</text>
+  <line class="il-d" x1="92" y1="94" x2="362" y2="94"/>
+
+  <!-- ROWS: each row = soft square + ruled line + (optional) pine tick -->
+  <!-- Row 1 done -->
+  <g class="cp" style="--i:1">
+    <rect class="if-p" x="94" y="110" width="20" height="20" rx="4" aria-hidden="true"/>
+    <rect class="il-d" x="94" y="110" width="20" height="20" rx="4" fill="none" aria-hidden="true"/>
+    <path class="il-p flow" pathLength="1" d="M98 120 L103 126 L112 113" fill="none" aria-hidden="true"/>
+    <line class="il-d" x1="128" y1="120" x2="356" y2="120" aria-hidden="true"/>
+  </g>
+
+  <!-- Row 2 done -->
+  <g class="cp" style="--i:2">
+    <rect class="if-p" x="94" y="146" width="20" height="20" rx="4" aria-hidden="true"/>
+    <rect class="il-d" x="94" y="146" width="20" height="20" rx="4" fill="none" aria-hidden="true"/>
+    <path class="il-p flow" pathLength="1" d="M98 156 L103 162 L112 149" fill="none" aria-hidden="true"/>
+    <line class="il-d" x1="128" y1="156" x2="356" y2="156" aria-hidden="true"/>
+  </g>
+
+  <!-- Row 3 done -->
+  <g class="cp" style="--i:3">
+    <rect class="if-p" x="94" y="182" width="20" height="20" rx="4" aria-hidden="true"/>
+    <rect class="il-d" x="94" y="182" width="20" height="20" rx="4" fill="none" aria-hidden="true"/>
+    <path class="il-p flow" pathLength="1" d="M98 192 L103 198 L112 185" fill="none" aria-hidden="true"/>
+    <line class="il-d" x1="128" y1="192" x2="312" y2="192" aria-hidden="true"/>
+  </g>
+
+  <!-- Row 4 done -->
+  <g class="cp" style="--i:4">
+    <rect class="if-p" x="94" y="218" width="20" height="20" rx="4" aria-hidden="true"/>
+    <rect class="il-d" x="94" y="218" width="20" height="20" rx="4" fill="none" aria-hidden="true"/>
+    <path class="il-p flow" pathLength="1" d="M98 228 L103 234 L112 221" fill="none" aria-hidden="true"/>
+    <line class="il-d" x1="128" y1="228" x2="342" y2="228" aria-hidden="true"/>
+  </g>
+
+  <!-- Row 5 empty -->
+  <g class="cp" style="--i:5">
+    <rect class="if-w" x="94" y="254" width="20" height="20" rx="4" aria-hidden="true"/>
+    <rect class="il-d" x="94" y="254" width="20" height="20" rx="4" fill="none" aria-hidden="true"/>
+    <line class="il-d" x1="128" y1="264" x2="356" y2="264" aria-hidden="true"/>
+  </g>
+
+  <!-- Row 6 empty -->
+  <g class="cp" style="--i:6">
+    <rect class="if-w" x="94" y="290" width="20" height="20" rx="4" aria-hidden="true"/>
+    <rect class="il-d" x="94" y="290" width="20" height="20" rx="4" fill="none" aria-hidden="true"/>
+    <line class="il-d" x1="128" y1="300" x2="320" y2="300" aria-hidden="true"/>
+  </g>
+
+  <!-- progress label + terracotta progress rule -->
+  <g class="cp" style="--i:7">
+    <text class="il-sm" x="68" y="346">PROGRESS</text>
+    <line class="il-d" x1="140" y1="342" x2="386" y2="342" aria-hidden="true"/>
+    <line class="il-t flow" pathLength="1" x1="140" y1="342" x2="304" y2="342" aria-hidden="true"/>
+    <circle class="in-t" cx="304" cy="342" r="4" aria-hidden="true"/>
+  </g>
+</svg>
