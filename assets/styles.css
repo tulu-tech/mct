@@ -26,6 +26,13 @@
   --card-border:#E6E2D8;
   --focus:#1E5A4C;
 
+  /* ---- Monochromatic green decision-engine tokens (anchored on --pine) ---- */
+  --green-primary:#1E5A4C;            /* signature green — branding, active states */
+  --green-dark:#143F35;               /* deep forest — headings/labels in callouts */
+  --green-tint:rgba(31,92,77,.08);    /* ultra-light wash — card/blockquote fills */
+  --green-tint-strong:rgba(31,92,77,.12);
+  --green-border:rgba(31,92,77,.25);  /* crisp 25% green — dividers / subtle borders */
+
   --container:72rem;
   --gutter:clamp(16px,4vw,28px);
   --rhythm:clamp(48px,9vw,96px);
@@ -1414,3 +1421,87 @@ img,svg{max-width:100%;height:auto;display:block}
 .risk--low{background:var(--pine-tint);color:var(--pine-700);border-color:#bcd3c9}
 .risk--mid{background:var(--surface-2);color:var(--ink-700)}
 .risk--high{background:var(--amber-tint);color:var(--caution-ink);border-color:#E6D2A6}
+
+/* ============================================================
+   HOMEPAGE DECISION-ENGINE UPGRADES (monochromatic-green system)
+   Additive, scoped — anchored on the existing pine/field-guide kit.
+   ============================================================ */
+
+/* --- Eyebrow rendered as a solid pill badge (hero value-prop) --- */
+.eyebrow--badge{
+  display:inline-flex;align-items:center;width:auto;
+  background:var(--green-tint-strong);color:var(--green-dark);
+  border:1px solid var(--green-border);
+  padding:6px 14px;border-radius:999px;
+  font-size:.7rem;letter-spacing:.12em;margin-bottom:1.05rem;
+}
+.eyebrow--badge::before{display:none}
+
+/* --- Header CTA: premium outline pill that floods green on hover --- */
+.btn--pill{border-radius:999px;background:transparent;color:var(--green-primary);border-color:var(--green-border);font-weight:600}
+.btn--pill:hover{background:var(--green-primary);color:#fff;border-color:var(--green-primary)}
+.btn--pill:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
+/* --- "The Short Answer" executive-summary card (stronger green anchor) --- */
+.answer{border-left-width:4px;border-left-color:var(--green-primary);background:var(--green-tint)}
+.answer .eyebrow{color:var(--green-dark)}
+
+/* ============ THE TRAILHEAD — two intent buckets (Hick's Law) ============ */
+.trail-buckets{display:grid;gap:clamp(26px,4vw,40px);margin-top:1.6rem}
+.trail-bucket-head{display:flex;align-items:center;gap:.7rem;margin:0 0 1.1rem;padding-bottom:.7rem;border-bottom:1px solid var(--green-border)}
+.trail-bucket-head .tb-ic{flex:0 0 auto;width:38px;height:38px;border-radius:10px;background:var(--green-tint);color:var(--green-primary);display:inline-flex;align-items:center;justify-content:center}
+.trail-bucket-head .tb-ic .ic{width:21px;height:21px}
+.trail-bucket-head .tb-txt{display:flex;flex-direction:column;gap:.1rem}
+.trail-bucket-head h3{margin:0;font-size:1.18rem;line-height:1.2}
+.trail-bucket-head .tb-tag{font-family:var(--font-mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-500)}
+/* route cards lift a touch more + green accent edge */
+#start-here .card{border-left-width:3px;border-left-color:var(--green-border)}
+#start-here .card:hover{transform:translateY(-4px);border-left-color:var(--green-primary)}
+
+/* ============ CHECKLIST — counter rendered as a live green pill ============ */
+.cl-count-label{background:var(--green-tint);border:1px solid var(--green-border);color:var(--green-dark);padding:5px 12px;border-radius:999px;font-weight:600}
+.cl-count-label [data-cl-count]{color:var(--green-primary)}
+.cl-progress-fill{background:linear-gradient(90deg,var(--green-primary),var(--pine-700))}
+
+/* ============ THE FIT MAP — bidirectional diagram ↔ list ============ */
+.fm-interactive{display:grid;grid-template-columns:1.12fr .88fr;gap:clamp(22px,4vw,44px);align-items:center;margin:0 0 1.9rem}
+.fm-interactive .fm-fig{margin:0}
+.fm-points{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.fm-points-head{font-family:var(--font-mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-500);margin:0 0 .2rem}
+.fm-point{display:flex;gap:.75rem;align-items:flex-start;padding:11px 14px;background:var(--surface-raised);border:1px solid var(--green-border);border-left:3px solid transparent;border-radius:var(--radius-sm);cursor:pointer;transition:background-color .18s ease,border-color .18s ease,transform .18s ease}
+.fm-point:hover,.fm-point.is-active{background:var(--green-tint);border-left-color:var(--green-primary);transform:translateX(3px)}
+.fm-point:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.fm-point .fm-pn{flex:0 0 auto;font-family:var(--font-mono);font-size:.72rem;font-weight:600;color:var(--green-primary);min-width:1.4em;padding-top:.1rem}
+.fm-point.fm-point--watch .fm-pn{color:var(--caution-ink)}
+.fm-point b{display:block;font-size:.9rem;color:var(--ink-900);letter-spacing:.01em}
+.fm-point span{font-size:.82rem;color:var(--ink-500)}
+/* SVG checkpoint active state driven by the list (and vice-versa) */
+.fm-note{transition:opacity .2s ease}
+.fm-note .fm-anchor,.fm-note .fm-num,.fm-note .fm-label,.fm-note .fm-lead{transition:fill .2s ease,stroke .2s ease,r .2s ease}
+.fm-note.is-active .fm-anchor{fill:var(--green-primary);stroke:var(--green-dark);animation:fmPulse 1.25s ease-in-out infinite}
+.fm-note.is-active .fm-num{fill:var(--green-dark)}
+.fm-note.is-active .fm-label{fill:var(--green-dark);font-weight:700}
+.fm-note.is-active .fm-lead{stroke:var(--green-primary);opacity:1;stroke-dasharray:none}
+@keyframes fmPulse{0%,100%{r:3.4}50%{r:7}}
+@media (max-width:860px){.fm-interactive{grid-template-columns:1fr;gap:24px}}
+@media (prefers-reduced-motion:reduce){.fm-note.is-active .fm-anchor{animation:none}}
+
+/* ============ TRUST-LEDGER TABLE — green checkmark scan column ============ */
+.cmp-good{border-color:var(--green-border)}
+.cmp-good thead th{background:var(--green-tint);color:var(--green-dark)}
+.cmp-good th,.cmp-good td{border-bottom-color:var(--green-border)}
+.cmp-good tbody td{position:relative;padding-left:38px}
+.cmp-good tbody td::before{
+  content:"";position:absolute;left:13px;top:14px;width:16px;height:16px;
+  background:no-repeat center/contain url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231E5A4C' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><path d='M5 12.5l4 4 10-10'/></svg>");
+}
+@media (max-width:639px){
+  .cmp-good tbody td{padding-left:26px}
+  .cmp-good tbody td::before{left:0;top:12px}
+}
+
+/* ============ AVG-VS-SPREAD — green = positive, amber = service miss ============ */
+.hs-base{stroke:var(--ink-faint)}
+.hs-tick{stroke:var(--ink-faint)}
+.hs-dot{fill:var(--green-primary);stroke:var(--green-dark);stroke-width:1.5}
+.hs-dot--low{fill:var(--amber-tint);stroke:var(--amber);stroke-width:2;stroke-dasharray:none}

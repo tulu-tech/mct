@@ -95,6 +95,26 @@
     b.addEventListener('click',function(e){e.preventDefault();window.print();});
   });
 
+  /* ---------- Fit Map: bidirectional list <-> diagram highlight ---------- */
+  var fmWrap=document.querySelector('.fm-interactive');
+  if(fmWrap){
+    var fmPoints=[].slice.call(fmWrap.querySelectorAll('.fm-point'));
+    var fmNotes=[].slice.call(fmWrap.querySelectorAll('[data-fm].fm-note'));
+    var fmSet=function(id,on){
+      fmPoints.forEach(function(p){if(p.getAttribute('data-fm')===id)p.classList.toggle('is-active',on);});
+      fmNotes.forEach(function(n){if(n.getAttribute('data-fm')===id)n.classList.toggle('is-active',on);});
+    };
+    var fmBind=function(el){
+      var id=el.getAttribute('data-fm');
+      el.addEventListener('mouseenter',function(){fmSet(id,true);});
+      el.addEventListener('mouseleave',function(){fmSet(id,false);});
+      el.addEventListener('focus',function(){fmSet(id,true);});
+      el.addEventListener('blur',function(){fmSet(id,false);});
+    };
+    fmPoints.forEach(fmBind);
+    fmNotes.forEach(function(n){n.style.cursor='pointer';fmBind(n);});
+  }
+
   /* ---------- Section nav: mark the section in view ---------- */
   var tocLinks=[].slice.call(document.querySelectorAll('[data-toc] a'));
   if(tocLinks.length&&'IntersectionObserver'in window){
