@@ -1,0 +1,47 @@
+<svg class="illu" viewBox="0 0 460 360" role="img" aria-labelledby="sh-t sh-d" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <title id="sh-t">Orientation map for choosing a massage chair</title>
+  <desc id="sh-d">A calm wayfinding diagram: a central START hub with a small compass mark, and dashed paths radiating out to several hollow destination rings that stand for the guides a buyer can read next. One path is drawn in terracotta to show a clear first step.</desc>
+
+  <!-- soft ground tint -->
+  <rect class="if-s" x="36" y="44" width="392" height="280" rx="14" aria-hidden="true"/>
+  <rect class="if-w" x="32" y="40" width="392" height="280" rx="14" aria-hidden="true"/>
+  <rect class="il-ln" x="32" y="40" width="392" height="280" rx="14" fill="none" aria-hidden="true"/>
+
+  <text class="il-sm" x="52" y="70">START HERE</text>
+  <line class="il-d" x1="52" y1="80" x2="404" y2="80" aria-hidden="true"/>
+
+  <!-- dashed routing paths from hub to destinations -->
+  <g aria-hidden="true">
+    <path class="il-d il-dash" d="M230 196 L120 132" fill="none"/>
+    <path class="il-d il-dash" d="M230 196 L120 264" fill="none"/>
+    <path class="il-d il-dash" d="M230 196 L348 132" fill="none"/>
+    <path class="il-d il-dash" d="M230 196 L348 264" fill="none"/>
+    <!-- highlighted first step -->
+    <path class="il-t flow" pathLength="1" d="M230 196 L230 300" fill="none"/>
+  </g>
+
+  <!-- destination rings (abstract, hollow — not map pins) -->
+  <g aria-hidden="true">
+    <circle class="if-w" cx="120" cy="132" r="16"/><circle class="il-p" cx="120" cy="132" r="16" fill="none"/>
+    <circle class="if-w" cx="120" cy="264" r="16"/><circle class="il-p" cx="120" cy="264" r="16" fill="none"/>
+    <circle class="if-w" cx="348" cy="132" r="16"/><circle class="il-p" cx="348" cy="132" r="16" fill="none"/>
+    <circle class="if-w" cx="348" cy="264" r="16"/><circle class="il-p" cx="348" cy="264" r="16" fill="none"/>
+    <!-- highlighted destination -->
+    <circle class="if-w" cx="230" cy="300" r="17"/><circle class="il-t" cx="230" cy="300" r="17" fill="none"/>
+    <circle class="in-t" cx="230" cy="300" r="5"/>
+  </g>
+
+  <!-- central START hub with compass mark -->
+  <g aria-hidden="true">
+    <circle class="if-s" cx="232" cy="198" r="46"/>
+    <circle class="if-w" cx="230" cy="196" r="46"/>
+    <circle class="il-ln" cx="230" cy="196" r="46" fill="none"/>
+    <!-- compass diamond -->
+    <path class="if-p" d="M230 168 L242 196 L230 224 L218 196 Z"/>
+    <path class="il-ln" d="M230 168 L242 196 L230 224 L218 196 Z" fill="none"/>
+    <path class="il-d" d="M196 196 L264 196 M230 162 L230 230" fill="none"/>
+    <circle class="in-t" cx="230" cy="196" r="3"/>
+  </g>
+
+  <text class="il-sm" x="230" y="262" text-anchor="middle">YOU ARE HERE</text>
+</svg>

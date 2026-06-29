@@ -5,6 +5,22 @@
   },
   "pages": [
     {
+      "slug": "about",
+      "title": "About MassageChairsTested.com | Independent Massage Chair Buying Guide",
+      "desc": "Learn how MassageChairsTested.com helps buyers compare massage chairs, showrooms, reviews, warranty terms, delivery, service, and health claims with a consumer-first approach.",
+      "eyebrow": "About This Guide",
+      "h1": "About MassageChairsTested.com",
+      "lead": "MassageChairsTested.com is an independent, consumer-first massage chair buying guide built to help you compare comfort and body fit, showroom access, retailer transparency, reviews, warranty terms, service support, delivery details and health-related claims before a high-ticket purchase. We explain and compare; we don't sell chairs."
+    },
+    {
+      "slug": "start-here",
+      "title": "Start Here: Massage Chair Buying Guide & Decision Checklist",
+      "desc": "New to massage chair shopping? Start with a buyer-first guide to compare showrooms, reviews, warranties, delivery, health claims, and try-before-buy decisions.",
+      "eyebrow": "Start Here",
+      "h1": "Start Here: A Safer Way to Choose a Massage Chair",
+      "lead": "Before comparing prices, brands, or online reviews, define the decision criteria that actually protect you: comfort fit, showroom testing, warranty clarity, delivery details, service support, review quality, and responsible wellness claims. This is the place to begin."
+    },
+    {
       "slug": "buying-guide/massage-chair-buying-checklist",
       "title": "Massage Chair Buying Checklist: Questions to Ask",
       "desc": "An independent, no-sign-up checklist to compare comfort, body fit, showrooms, retailer trust, warranty, service and reviews before you buy.",

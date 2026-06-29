@@ -1,0 +1,69 @@
+<svg class="illu" viewBox="0 0 460 360" role="img" aria-labelledby="ia-t ia-d" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <title id="ia-t">Consumer-first decision compass</title>
+  <desc id="ia-d">A compass drawn in pine ink, its needle in terracotta, linked by a hairline to a short column of buyer criteria — comfort, showroom, reviews, warranty and claims. A mono tag reads INDEPENDENT GUIDE, NOT A RETAILER.</desc>
+
+  <!-- soft underlay tints (offset under the lines) -->
+  <g aria-hidden="true">
+    <circle class="if-s" cx="138" cy="152" r="78"/>
+    <circle class="if-p" cx="138" cy="152" r="40"/>
+    <rect class="if-w" x="276" y="64" width="156" height="200" rx="14"/>
+  </g>
+
+  <!-- COMPASS: the buyer's decision standard -->
+  <g class="cp" style="--i:1">
+    <!-- outer ring -->
+    <circle class="il-p flow" pathLength="1" cx="138" cy="152" r="78"/>
+    <!-- inner ring -->
+    <circle class="il-d" cx="138" cy="152" r="58"/>
+    <!-- cardinal ticks -->
+    <path class="il-d" d="M138 80 V92 M138 212 V224 M66 152 H78 M198 152 H210"/>
+  </g>
+
+  <!-- needle: terracotta north, pine south -->
+  <g class="cp" style="--i:2">
+    <path class="il-t flow" pathLength="1" d="M138 152 L154 136 L138 96 L122 136 Z"/>
+    <path class="il-p" d="M138 152 L122 168 L138 208 L154 168 Z"/>
+    <circle class="in-t" cx="138" cy="152" r="3.4"/>
+  </g>
+
+  <!-- connector hairline from compass to the criteria column -->
+  <path class="il-d il-dash" d="M216 152 C246 152 250 152 276 152" aria-hidden="true"/>
+
+  <!-- CRITERIA COLUMN: what we help you compare -->
+  <g class="cp" style="--i:3">
+    <!-- spine linking the rows -->
+    <path class="il-d" d="M300 92 V236" aria-hidden="true"/>
+    <!-- comfort & fit -->
+    <circle class="il-p flow" pathLength="1" cx="300" cy="92" r="8"/>
+    <circle class="in-p" cx="300" cy="92" r="2.6"/>
+    <text class="il-lbl" x="318" y="96">Comfort &amp; fit</text>
+    <!-- showroom -->
+    <circle class="il-p flow" pathLength="1" cx="300" cy="128" r="8"/>
+    <circle class="in-p" cx="300" cy="128" r="2.6"/>
+    <text class="il-lbl" x="318" y="132">Showroom access</text>
+    <!-- reviews -->
+    <circle class="il-p flow" pathLength="1" cx="300" cy="164" r="8"/>
+    <circle class="in-p" cx="300" cy="164" r="2.6"/>
+    <text class="il-lbl" x="318" y="168">Reviews</text>
+    <!-- warranty & service -->
+    <circle class="il-p flow" pathLength="1" cx="300" cy="200" r="8"/>
+    <circle class="in-p" cx="300" cy="200" r="2.6"/>
+    <text class="il-lbl" x="318" y="204">Warranty &amp; service</text>
+    <!-- health claims -->
+    <circle class="il-t flow" pathLength="1" cx="300" cy="236" r="8"/>
+    <circle class="in-t" cx="300" cy="236" r="2.6"/>
+    <text class="il-lbl" x="318" y="240">Health claims</text>
+  </g>
+
+  <!-- compass label -->
+  <g class="cp" style="--i:4">
+    <text class="il-lbl" x="138" y="252" text-anchor="middle">Consumer-first compass</text>
+  </g>
+
+  <!-- mono tag -->
+  <g class="cp" style="--i:5">
+    <line class="il-p" x1="61" y1="316" x2="103" y2="316"/>
+    <text class="il-sm" x="113" y="320">INDEPENDENT GUIDE</text>
+    <text class="il-sm" x="250" y="320">NOT A RETAILER</text>
+  </g>
+</svg>

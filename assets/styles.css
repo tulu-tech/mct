@@ -166,6 +166,19 @@ img,svg{max-width:100%;height:auto;display:block}
 .theme b{display:block;color:var(--ink-900);font-size:.95rem;margin-bottom:.2rem}
 .theme span{font-size:.86rem;color:var(--ink-700)}
 
+/* numbered buyer-risk list */
+.num-list{list-style:none;counter-reset:nl;padding:0;margin:1.2rem 0;display:grid;gap:10px}
+.num-list>li{counter-increment:nl;position:relative;background:var(--surface-2);border-radius:var(--radius-sm);padding:14px 16px 14px 52px;font-size:.92rem;color:var(--ink-700)}
+.num-list>li::before{content:counter(nl);position:absolute;left:14px;top:13px;width:24px;height:24px;display:flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:.78rem;font-weight:600;color:var(--pine);background:var(--surface-raised);border:1px solid var(--rule);border-radius:50%}
+.num-list>li b{color:var(--ink-900)}
+
+/* guided reading sequence */
+.readseq{list-style:none;counter-reset:rs;padding:0;margin:1.2rem 0;display:grid;gap:4px}
+.readseq>li{counter-increment:rs;position:relative;padding:11px 0 11px 40px;border-bottom:1px solid var(--rule)}
+.readseq>li:last-child{border-bottom:0}
+.readseq>li::before{content:counter(rs,decimal-leading-zero);position:absolute;left:0;top:13px;font-family:var(--font-mono);font-size:.72rem;color:var(--ink-500)}
+.rs-note{display:block;font-size:.84rem;color:var(--ink-500);margin-top:.15rem}
+
 /* ============ FIELD CHECKLIST (interactive) ============ */
 .checklist-tool{border:1px solid var(--card-border);border-radius:var(--radius);background:var(--surface-raised);overflow:hidden}
 .cl-head{display:flex;align-items:center;gap:.8rem;padding:13px 16px;background:var(--surface-2);border-bottom:1px solid var(--rule)}
