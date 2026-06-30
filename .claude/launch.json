@@ -18,6 +18,12 @@
       "runtimeExecutable": "python3",
       "runtimeArgs": ["-m", "http.server", "4623"],
       "port": 4623
+    },
+    {
+      "name": "brands-verify",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4637"],
+      "port": 4637
     }
   ]
 }

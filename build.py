@@ -122,7 +122,7 @@ def inner_body(slug, title, eyebrow, h1, lead, content_html):
         "buying-guide":"Buying Guide","showroom-guide":"Showroom Guide",
         "retailer-checklist":"Retailer Checklist","medical-claims":"Medical Claims",
         "warranty-service-delivery":"Warranty, Service & Delivery","online-vs-showroom":"Online vs Showroom",
-        "reviews-comparisons":"Reviews & Comparisons","local":"Local Guides",
+        "reviews-comparisons":"Reviews & Comparisons","local":"Local Guides","brands":"Brands",
         "editorial-standards":"Editorial Standards","review-methodology":"Review Methodology",
         "showroom-verification-methodology":"Showroom Verification","disclosure":"Disclosure",
         "medical-disclaimer":"Medical Disclaimer","correction-policy":"Correction Policy"}

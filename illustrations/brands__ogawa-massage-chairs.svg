@@ -1,0 +1,73 @@
+<svg class="illu" viewBox="0 0 460 340" role="img" aria-labelledby="hi-t hi-d" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <title id="hi-t">How to judge Ogawa before buying</title>
+  <desc id="hi-d">An abstract, brand-neutral diagram: a single unbranded armchair silhouette with two body-fit checkpoints on the left, linked to four equal-weight buyer-check tags on the right (Features, Fit, Reviews, Service). No logo, no ranking, no stars.</desc>
+
+  <!-- soft sand panel behind the chair -->
+  <g aria-hidden="true">
+    <rect x="32" y="44" width="210" height="262" rx="12" class="if-s"/>
+    <rect x="30" y="42" width="210" height="262" rx="12" class="il-d" fill="none"/>
+  </g>
+  <text x="48" y="74" class="il-sm">BEFORE YOU BUY</text>
+  <line x1="48" y1="84" x2="224" y2="84" class="il-d il-dash"/>
+
+  <!-- abstract armchair silhouette (brand-neutral, no logo) -->
+  <g aria-hidden="true">
+    <rect x="86" y="92" width="98" height="98" rx="20" class="if-p"/>
+    <rect x="84" y="90" width="98" height="98" rx="20" class="il-ln" fill="none"/>
+    <rect x="76" y="182" width="118" height="34" rx="15" class="if-p"/>
+    <rect x="74" y="180" width="118" height="34" rx="15" class="il-ln" fill="none"/>
+    <rect x="66" y="146" width="20" height="66" rx="10" class="if-w"/>
+    <rect x="64" y="144" width="20" height="66" rx="10" class="il-ln" fill="none"/>
+    <rect x="184" y="146" width="20" height="66" rx="10" class="if-w"/>
+    <rect x="182" y="144" width="20" height="66" rx="10" class="il-ln" fill="none"/>
+    <rect x="92" y="216" width="14" height="26" rx="5" class="if-s"/>
+    <rect x="162" y="216" width="14" height="26" rx="5" class="if-s"/>
+    <!-- body-scan checkpoints down the back -->
+    <line x1="134" y1="104" x2="134" y2="178" class="il-d il-dash"/>
+    <circle cx="134" cy="118" r="5" class="in-t"/>
+    <circle cx="134" cy="158" r="5" class="in-t"/>
+  </g>
+  <text x="48" y="292" class="il-sm">TRY THE EXACT MODEL</text>
+
+  <!-- connector from chair to the buyer checks -->
+  <g aria-hidden="true">
+    <path d="M242 150 C 256 150, 258 118, 270 118" class="il-p flow" pathLength="1" fill="none"/>
+    <circle cx="270" cy="118" r="3.5" class="in-p"/>
+  </g>
+
+  <!-- equal-weight buyer checks (no rank) -->
+  <text x="270" y="86" class="il-ttl">Same buyer checks</text>
+  <g class="cp" style="--i:1">
+    <rect x="270" y="96" width="150" height="44" rx="7" class="if-p"/>
+    <rect x="268" y="94" width="150" height="44" rx="7" class="il-p" fill="none"/>
+    <circle cx="288" cy="116" r="4.5" class="in-p"/>
+    <text x="304" y="114" class="il-lbl">Features</text>
+    <text x="304" y="129" class="il-sm">DO THEY HELP?</text>
+  </g>
+  <g class="cp" style="--i:2">
+    <rect x="270" y="150" width="150" height="44" rx="7" class="if-w"/>
+    <rect x="268" y="148" width="150" height="44" rx="7" class="il-ln" fill="none"/>
+    <circle cx="288" cy="170" r="4.5" class="in-t"/>
+    <text x="304" y="168" class="il-lbl">Fit</text>
+    <text x="304" y="183" class="il-sm">BODY + SEAT</text>
+  </g>
+  <g class="cp" style="--i:3">
+    <rect x="270" y="204" width="150" height="44" rx="7" class="if-w"/>
+    <rect x="268" y="202" width="150" height="44" rx="7" class="il-ln" fill="none"/>
+    <circle cx="288" cy="224" r="4.5" class="in-t"/>
+    <text x="304" y="222" class="il-lbl">Reviews</text>
+    <text x="304" y="237" class="il-sm">READ FOR FIT</text>
+  </g>
+  <g class="cp" style="--i:4">
+    <rect x="270" y="258" width="150" height="44" rx="7" class="if-w"/>
+    <rect x="268" y="256" width="150" height="44" rx="7" class="il-ln" fill="none"/>
+    <circle cx="288" cy="278" r="4.5" class="in-t"/>
+    <text x="304" y="276" class="il-lbl">Service</text>
+    <text x="304" y="291" class="il-sm">REACH + SPEED</text>
+  </g>
+
+  <g class="cp" style="--i:5">
+    <line x1="30" y1="320" x2="430" y2="320" class="il-d il-dash"/>
+    <text x="30" y="335" class="il-sm">NO RANK · NO STARS · EQUAL WEIGHT</text>
+  </g>
+</svg>
