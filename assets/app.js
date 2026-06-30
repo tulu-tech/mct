@@ -23,6 +23,23 @@
   drawer.addEventListener('click',function(e){if(e.target.tagName==='A')closeDrawer();});
   document.addEventListener('keydown',function(e){if(e.key==='Escape'&&drawer.classList.contains('open'))closeDrawer();});
 
+  /* ---------- Header brands dropdown (desktop) ---------- */
+  var drop=document.getElementById('brandsDrop');
+  if(drop){
+    var dToggle=drop.querySelector('.nav-drop-toggle');
+    var openDrop=function(){drop.classList.add('open');dToggle.setAttribute('aria-expanded','true');};
+    var closeDrop=function(){drop.classList.remove('open');dToggle.setAttribute('aria-expanded','false');};
+    dToggle.addEventListener('click',function(e){
+      e.preventDefault();
+      (drop.classList.contains('open')?closeDrop:openDrop)();
+    });
+    document.addEventListener('click',function(e){if(!drop.contains(e.target))closeDrop();});
+    drop.addEventListener('keydown',function(e){if(e.key==='Escape'){closeDrop();dToggle.focus();}});
+    [].slice.call(drop.querySelectorAll('.nav-dropdown a')).forEach(function(a){
+      a.addEventListener('click',closeDrop);
+    });
+  }
+
   /* ---------- Sticky CTA bar (mobile) ---------- */
   var bar=document.getElementById('stickyBar');
   var dismiss=document.getElementById('stickyDismiss');

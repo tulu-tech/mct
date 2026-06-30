@@ -437,7 +437,7 @@ img,svg{max-width:100%;height:auto;display:block}
 .fi-meta{font-family:var(--font-mono);font-size:.68rem;letter-spacing:.06em;color:var(--ink-500);text-transform:uppercase}
 .fi-legend-title{font-weight:600;color:var(--ink-900);margin-bottom:.4rem;font-size:.95rem}
 
-@media (max-width:1180px){
+@media (max-width:1149px){
   .primary-nav,.header-cta{display:none}
   .nav-toggle{display:inline-flex}
 }
@@ -1505,3 +1505,49 @@ img,svg{max-width:100%;height:auto;display:block}
 .hs-tick{stroke:var(--ink-faint)}
 .hs-dot{fill:var(--green-primary);stroke:var(--green-dark);stroke-width:1.5}
 .hs-dot--low{fill:var(--amber-tint);stroke:var(--amber);stroke-width:2;stroke-dasharray:none}
+
+/* ============ HEADER NAV REFINEMENT + BRANDS DROPDOWN ============ */
+/* Tighten the primary nav so 8 items + wordmark + CTA never overlap inside the 72rem container */
+.header-inner{gap:.65rem}
+.primary-nav{margin-left:auto}
+.primary-nav ul{gap:.1rem;align-items:center;flex-wrap:nowrap}
+.primary-nav>ul>li{flex:0 0 auto}
+.primary-nav a{padding:8px 10px;font-size:.9rem;white-space:nowrap;line-height:1.2}
+.header-cta{margin-left:.4rem;flex:0 0 auto}
+/* When the full horizontal nav is shown, drop the wordmark tagline so the row breathes */
+@media (min-width:1150px){ .brand small{display:none} }
+
+/* Dropdown trigger styled to match nav links */
+.has-dropdown{position:relative}
+.nav-drop-toggle{display:inline-flex;align-items:center;gap:5px;background:transparent;border:0;cursor:pointer;font-family:inherit;font-size:.9rem;font-weight:500;line-height:1.2;color:var(--ink-700);padding:8px 10px;border-radius:8px;white-space:nowrap}
+.nav-drop-toggle:hover{background:var(--surface-2);color:var(--ink-900)}
+.nav-drop-toggle:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.nav-drop-toggle .caret{font-size:.6em;opacity:.75;transform:translateY(1px);transition:transform .18s ease}
+.has-dropdown:hover .nav-drop-toggle .caret,
+.has-dropdown.open .nav-drop-toggle .caret,
+.nav-drop-toggle[aria-expanded="true"] .caret{transform:translateY(1px) rotate(180deg)}
+
+/* Dropdown panel: 2-column grid of brand guides */
+.nav-dropdown{position:absolute;top:calc(100% + 9px);right:0;z-index:140;display:none;grid-template-columns:1fr 1fr;gap:2px;min-width:372px;padding:8px;background:#fff;border:1px solid var(--rule);border-radius:14px;box-shadow:0 20px 44px -20px rgba(20,30,26,.4)}
+.nav-dropdown::before{content:"";position:absolute;top:-12px;left:0;right:0;height:12px} /* hover bridge over the gap */
+.nav-dropdown a{display:block;padding:9px 11px;border-radius:9px;color:var(--ink-700);text-decoration:none;font-size:.875rem;font-weight:500;white-space:nowrap}
+.nav-dropdown a:hover{background:var(--surface-2);color:var(--ink-900)}
+.nav-dropdown .nd-all{grid-column:1 / -1;display:flex;align-items:center;justify-content:space-between;color:var(--green-primary);font-weight:600;background:var(--green-tint);margin-bottom:4px}
+.nav-dropdown .nd-all:hover{background:var(--green-tint-strong);color:var(--green-primary)}
+@media (hover:hover){
+  .has-dropdown:hover .nav-dropdown,
+  .has-dropdown:focus-within .nav-dropdown{display:grid}
+}
+.has-dropdown.open .nav-dropdown{display:grid}
+
+/* Mobile drawer: Brands accordion */
+.drawer-acc details>summary{display:flex;align-items:center;justify-content:space-between;gap:.5rem;padding:13px 8px;border-bottom:1px solid var(--rule);color:var(--ink-900);font-weight:500;cursor:pointer;list-style:none}
+.drawer-acc summary::-webkit-details-marker{display:none}
+.drawer-acc summary::marker{content:""}
+.drawer-acc summary .caret{font-size:.7em;color:var(--ink-500);transition:transform .18s ease}
+.drawer-acc details[open]>summary .caret{transform:rotate(180deg)}
+.drawer-sub{list-style:none;margin:0;padding:2px 0 6px}
+.drawer-sub li{margin:0}
+.drawer-sub a{display:block;padding:11px 8px 11px 22px;border-bottom:1px solid var(--rule);color:var(--ink-700);text-decoration:none;font-weight:500;font-size:.95rem}
+.drawer-sub a:hover{color:var(--ink-900)}
+.drawer-sub li:last-child a{border-bottom:0}
