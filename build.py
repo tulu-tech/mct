@@ -7,7 +7,7 @@ import json, os, html
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = "https://massagechairstested.com"
-UPDATED = "June 2026"
+UPDATED = "July 2026"
 
 def read(p):
     with open(os.path.join(ROOT, p), encoding="utf-8") as f:
@@ -23,16 +23,16 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">\n'
  '<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..600&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">')
 
 WEBSITE = {"@type":"WebSite","@id":SITE+"/#website","url":SITE+"/","name":"MassageChairsTested.com",
-           "description":"Independent, consumer-first massage chair buying guide.","inLanguage":"en-US",
+           "description":"Consumer-first massage chair buying guide.","inLanguage":"en-US",
            "publisher":{"@id":SITE+"/#organization"}}
 ORG = {"@type":"Organization","@id":SITE+"/#organization","name":"MassageChairsTested.com","url":SITE+"/",
-       "description":"An independent editorial guide that helps consumers make safer, better-informed massage chair buying decisions. We do not sell massage chairs.",
+       "description":"A consumer-first editorial guide that helps consumers make safer, better-informed massage chair buying decisions. We do not sell massage chairs. We disclose our retailer relationships.",
        "publishingPrinciples":SITE+"/editorial-standards/"}
 
 def page_schema(title, desc, url, crumbs):
     webpage = {"@type":"WebPage","@id":url+"#webpage","url":url,"name":title,
                "isPartOf":{"@id":SITE+"/#website"},"about":{"@id":SITE+"/#organization"},
-               "description":desc,"inLanguage":"en-US","dateModified":"2026-06-26",
+               "description":desc,"inLanguage":"en-US","dateModified":"2026-07-10",
                "breadcrumb":{"@id":url+"#breadcrumb"}}
     items=[]
     for i,(name,href) in enumerate(crumbs,1):

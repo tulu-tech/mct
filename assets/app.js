@@ -150,4 +150,24 @@
     },{rootMargin:'-120px 0px -70% 0px',threshold:0});
     sections.forEach(function(s){tobs.observe(s);});
   }
+
+  /* ---------- Retailer outbound-click tracking (GA4, delegated) ---------- */
+  /* Fires a `retailer_outbound_click` event when a reader follows a disclosed
+     retailer-example link. Links opt in via data-retailer="mcm|hcm"; the other
+     parameters are read from data-* attributes so no per-link JS is needed. */
+  document.addEventListener('click',function(e){
+    var a=e.target.closest?e.target.closest('a[data-retailer]'):null;
+    if(!a||typeof window.gtag!=='function')return;
+    try{
+      window.gtag('event','retailer_outbound_click',{
+        retailer:a.getAttribute('data-retailer')||'',
+        source_page:location.pathname,
+        destination_url:a.href,
+        intent_cluster:a.getAttribute('data-intent')||'',
+        brand:a.getAttribute('data-brand')||'',
+        location:a.getAttribute('data-location')||'',
+        anchor_text:(a.textContent||'').replace(/\s+/g,' ').trim().slice(0,120)
+      });
+    }catch(err){}
+  });
 })();
