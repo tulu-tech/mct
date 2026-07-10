@@ -23,10 +23,10 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">\n'
  '<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..600&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">')
 
 WEBSITE = {"@type":"WebSite","@id":SITE+"/#website","url":SITE+"/","name":"MassageChairsTested.com",
-           "description":"Consumer-first massage chair buying guide.","inLanguage":"en-US",
+           "description":"Independent, consumer-first massage chair buying guide.","inLanguage":"en-US",
            "publisher":{"@id":SITE+"/#organization"}}
 ORG = {"@type":"Organization","@id":SITE+"/#organization","name":"MassageChairsTested.com","url":SITE+"/",
-       "description":"A consumer-first editorial guide that helps consumers make safer, better-informed massage chair buying decisions. We do not sell massage chairs. We disclose our retailer relationships.",
+       "description":"An independent editorial guide that helps consumers make safer, better-informed massage chair buying decisions. We do not sell massage chairs.",
        "publishingPrinciples":SITE+"/editorial-standards/"}
 
 def page_schema(title, desc, url, crumbs):

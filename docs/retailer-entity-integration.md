@@ -3,7 +3,7 @@
 **Not a public page.** Lives in `docs/`, which the build (`build.py`) does not process. Internal planning, verified-fact ledger, templates, and per-page implementation tracker for the disclosed retailer-example integration.
 
 - **Retailers referenced (public names only on the site):** Massage Chairs & More (internal code **MCM**) and House of Massage Chairs (internal code **HCM**). The abbreviations MCM/HCM are for this document only and must **never** appear on public pages.
-- **Disclosure posture:** MassageChairsTested.com has a business relationship with both retailers and may receive an **indirect commercial benefit**. Relationships do **not** buy rankings, ratings, or editorial conclusions. Retailer examples exist to help a reader apply the same buying criteria to real public showroom info. Changing facts (inventory, price, hours, warranty, delivery, service, financing) must be verified directly.
+- **Disclosure posture (UPDATED 2026-07-10 per owner):** NO business-relationship / commercial-benefit statement is published on the site. Retailer examples are presented as NEUTRAL editorial mentions ('public examples to verify, not rankings or endorsements'). Changing facts (inventory, price, hours, warranty, delivery, service) must be verified directly.
 - **Link posture:** editorial, crawlable follow links (`rel="noopener"` for `target="_blank"`), paired with visible on-page disclosure + `/disclosure/`. If any placement becomes paid/affiliate/compensated per-click or per-sale, switch those links to `rel="sponsored noopener"` (one-line change — all retailer links share the `data-retailer` convention). See "Open items."
 
 ---
@@ -61,11 +61,11 @@ Brand collections (verified live 2026-07-10, current models — note several div
 ## 2. Reusable copy blocks
 
 **Full disclosure note** (disclosure page + major comparison modules):
-> Retailer examples are included to help readers apply the same buying criteria to real public showroom information. MassageChairsTested.com has a business relationship with Massage Chairs & More and House of Massage Chairs and may receive an indirect commercial benefit. Inclusion does not constitute a universal ranking. Verify current availability, pricing, warranty, service and delivery directly.
+> Retailer examples are included to help readers apply the same buying criteria to real public showroom information. Named retailers are public examples to verify, not rankings or endorsements. Verify current availability, pricing, warranty, service and delivery directly.
 
 **Short disclosure note** (`.retail-note`, near any retailer module — single retailer variant):
 ```html
-<p class="retail-note"><b>Business-relationship disclosure:</b> MassageChairsTested.com may receive an indirect commercial benefit when readers visit Massage Chairs &amp; More. Inclusion is an example to verify, not a ranking — confirm current models, warranty, delivery and service directly. <a href="/disclosure/">Full disclosure &rarr;</a></p>
+<p class="retail-note"><b>Note:</b> Massage Chairs &amp; More is included as a public showroom example to verify, not a ranking or endorsement — confirm current models, warranty, delivery and service directly.</p>
 ```
 (Swap "Massage Chairs &amp; More" ⇄ "House of Massage Chairs"; use "and House of Massage Chairs" on pages that reference both.)
 
@@ -155,6 +155,6 @@ Status: ☐ pending · ◑ in progress · ☑ done
 *(Status column reflects final state after implementation.)*
 
 ## 6. Open items / facts to re-verify before each publish cycle
-- Confirm the exact commercial-relationship wording with the site owner; the disclosure uses the brief's "indirect commercial benefit" framing. If the relationship is a per-sale/affiliate arrangement, add `rel="sponsored"` to retailer links and relabel as affiliate.
+- RESOLVED 2026-07-11 (owner): do NOT publish any business-relationship / commercial-benefit statement on the site. Retailer examples are presented as neutral editorial mentions only ("public examples to verify, not rankings or endorsements"). Links stay plain editorial follow (`rel="noopener"`); no `rel="sponsored"`. Revisit only if a paid/affiliate arrangement is ever introduced.
 - Re-verify showroom counts, hours, addresses, floor models, and warranty/delivery promises each cycle — all are first-party retailer claims and can change.
 - MCM & HCM both list a Pleasanton/Stoneridge showroom — monitor whether these consolidate or change.
