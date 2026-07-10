@@ -7,7 +7,7 @@ import json, os, html
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = "https://massagechairstested.com"
-UPDATED = "June 2026"
+UPDATED = "July 2026"
 
 def read(p):
     with open(os.path.join(ROOT, p), encoding="utf-8") as f:
@@ -32,7 +32,7 @@ ORG = {"@type":"Organization","@id":SITE+"/#organization","name":"MassageChairsT
 def page_schema(title, desc, url, crumbs):
     webpage = {"@type":"WebPage","@id":url+"#webpage","url":url,"name":title,
                "isPartOf":{"@id":SITE+"/#website"},"about":{"@id":SITE+"/#organization"},
-               "description":desc,"inLanguage":"en-US","dateModified":"2026-06-26",
+               "description":desc,"inLanguage":"en-US","dateModified":"2026-07-10",
                "breadcrumb":{"@id":url+"#breadcrumb"}}
     items=[]
     for i,(name,href) in enumerate(crumbs,1):
