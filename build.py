@@ -3,11 +3,16 @@
 Reads shared partials + per-page content fragments and writes full HTML pages.
 Run: python3 build.py
 """
-import json, os, html
+import json, os, html, datetime
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = "https://massagechairstested.com"
-UPDATED = "July 2026"
+UPDATED = "July 2026"            # site-wide default visible label
+DEFAULT_MODIFIED = "2026-07-10"  # site-wide default dateModified; pages may override via "modified" in pages.json
+
+def month_label(iso_date):
+    """'2026-10-22' -> 'October 2026' (visible 'Last updated' label)."""
+    return datetime.date.fromisoformat(iso_date).strftime("%B %Y")
 
 def read(p):
     with open(os.path.join(ROOT, p), encoding="utf-8") as f:
@@ -29,10 +34,10 @@ ORG = {"@type":"Organization","@id":SITE+"/#organization","name":"MassageChairsT
        "description":"An independent editorial guide that helps consumers make safer, better-informed massage chair buying decisions. We do not sell massage chairs.",
        "publishingPrinciples":SITE+"/editorial-standards/"}
 
-def page_schema(title, desc, url, crumbs):
+def page_schema(title, desc, url, crumbs, modified=DEFAULT_MODIFIED):
     webpage = {"@type":"WebPage","@id":url+"#webpage","url":url,"name":title,
                "isPartOf":{"@id":SITE+"/#website"},"about":{"@id":SITE+"/#organization"},
-               "description":desc,"inLanguage":"en-US","dateModified":"2026-07-10",
+               "description":desc,"inLanguage":"en-US","dateModified":modified,
                "breadcrumb":{"@id":url+"#breadcrumb"}}
     items=[]
     for i,(name,href) in enumerate(crumbs,1):
@@ -89,13 +94,13 @@ PAGE = """<!doctype html>
 </html>
 """
 
-def render(*, slug, title, desc, body, schema, og_type="article"):
+def render(*, slug, title, desc, body, schema, og_type="article", updated=UPDATED):
     canonical = SITE + "/" + (slug + "/" if slug else "")
     out = PAGE.format(
         title=title, title_attr=html.escape(title, quote=True),
         desc_attr=html.escape(desc, quote=True), canonical=canonical,
         og_type=og_type, schema=schema, fonts=FONTS, sprite=SPRITE,
-        header=HEADER, footer=FOOTER, body=body)
+        header=HEADER, footer=FOOTER.replace("Last updated: " + UPDATED, "Last updated: " + updated), body=body)
     outdir = ROOT if not slug else os.path.join(ROOT, slug)
     os.makedirs(outdir, exist_ok=True)
     with open(os.path.join(outdir, "index.html"), "w", encoding="utf-8") as f:
@@ -112,7 +117,7 @@ def breadcrumb_html(crumbs):
             parts.append(f'<a href="{href}">{html.escape(name)}</a>')
     return '<nav class="breadcrumb container" aria-label="Breadcrumb">'+'<span class="sep">/</span>'.join(parts)+'</nav>'
 
-def inner_body(slug, title, eyebrow, h1, lead, content_html):
+def inner_body(slug, title, eyebrow, h1, lead, content_html, modified=DEFAULT_MODIFIED):
     url = SITE + "/" + slug + "/"
     # build crumb trail from slug segments
     segs = slug.split("/")
@@ -149,11 +154,11 @@ def inner_body(slug, title, eyebrow, h1, lead, content_html):
     body = (bc + hero +
             '<div class="section" style="padding-top:0"><div class="container">'
             '<article class="prose">' + content_html +
-            f'<p class="page-updated">Last updated: {UPDATED} · '
+            f'<p class="page-updated">Last updated: {month_label(modified)} · '
             f'<a href="/editorial-standards/">Editorial standards</a> · '
             f'<a href="/disclosure/">Disclosure</a></p>'
             '</article></div></div>')
-    schema = page_schema(title, lead, url, crumbs_for_schema(slug, h1))
+    schema = page_schema(title, lead, url, crumbs_for_schema(slug, h1), modified)
     return body, schema
 
 def crumbs_for_schema(slug, h1):
@@ -170,8 +175,10 @@ def build():
         slug=p["slug"]
         cpath=os.path.join("content", slug.replace("/","__")+".html")
         content = read(cpath).strip() if os.path.exists(os.path.join(ROOT,cpath)) else "<p>Coming soon.</p>"
-        body, schema = inner_body(slug, p["title"], p["eyebrow"], p["h1"], p["lead"], content)
-        render(slug=slug, title=p["title"], desc=p["desc"], body=body, schema=schema)
+        modified = p.get("modified", DEFAULT_MODIFIED)
+        body, schema = inner_body(slug, p["title"], p["eyebrow"], p["h1"], p["lead"], content, modified)
+        render(slug=slug, title=p["title"], desc=p["desc"], body=body, schema=schema,
+               updated=month_label(modified))
         count+=1
     # 404 page
     nf_body = ('<header class="page-hero"><div class="container">'
@@ -196,10 +203,10 @@ def build():
     with open(os.path.join(ROOT,"404.html"),"w",encoding="utf-8") as f:
         f.write(out)
     # sitemap
-    urls=[SITE+"/"]+[SITE+"/"+p["slug"]+"/" for p in man["pages"]]
+    urls=[(SITE+"/", DEFAULT_MODIFIED)]+[(SITE+"/"+p["slug"]+"/", p.get("modified", DEFAULT_MODIFIED)) for p in man["pages"]]
     sm='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    for u in urls:
-        sm+=f'  <url><loc>{u}</loc><changefreq>monthly</changefreq></url>\n'
+    for u, lastmod in urls:
+        sm+=f'  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod><changefreq>monthly</changefreq></url>\n'
     sm+='</urlset>\n'
     open(os.path.join(ROOT,"sitemap.xml"),"w").write(sm)
     print(f"built {count} pages + sitemap ({len(urls)} urls)")

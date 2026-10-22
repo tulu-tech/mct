@@ -22,11 +22,12 @@
     },
     {
       "slug": "buying-guide/massage-chair-buying-checklist",
-      "title": "Massage Chair Buying Checklist: Questions to Ask",
-      "desc": "An independent, no-sign-up checklist to compare comfort, body fit, showrooms, retailer trust, warranty, service and reviews before you buy.",
+      "title": "Massage Chair Buying Checklist: What to Look For",
+      "desc": "What to look for in a massage chair: body fit, track and rollers, space, delivery, warranty, service and returns. An independent, printable checklist.",
       "eyebrow": "Buying Guide",
-      "h1": "Massage Chair Buying Checklist: Questions to Ask Before You Buy",
-      "lead": "A massage chair is a major purchase you can't judge from a photo. Use this independent, no-sign-up checklist to compare comfort and body fit, showroom testing, retailer trust, reviews, warranty, service, delivery, claims and total ownership — before you buy online or visit a showroom."
+      "h1": "Massage Chair Buying Checklist: What to Look for in a Massage Chair",
+      "lead": "A massage chair is a major purchase you can't judge from a photo. This independent, no-sign-up checklist covers body fit, track and rollers, space, delivery, warranty, service and returns.",
+      "modified": "2026-10-22"
     },
     {
       "slug": "buying-guide/where-to-buy-a-massage-chair",
@@ -37,12 +38,31 @@
       "lead": "You can buy a massage chair from a local showroom, a single-brand store, an authorized online retailer, a manufacturer, or a furniture, warehouse or marketplace seller — and each path trades off testing, brand selection, warranty clarity, delivery support and return risk differently. This guide compares your options and shows what to verify before you choose where to buy."
     },
     {
+      "slug": "buying-guide/massage-chair-glossary",
+      "title": "Massage Chair Glossary: 45 Terms Explained",
+      "desc": "Plain-English definitions of massage chair terms: S, L and SL tracks, 2D to 4D rollers, zero gravity, airbags, warranty types and delivery terms.",
+      "eyebrow": "Buying Guide",
+      "h1": "Massage Chair Glossary: Key Massage Chair Terms in Plain English",
+      "lead": "Spec sheets and warranty pages use a lot of shorthand. This brand-neutral glossary explains 45 terms: tracks, rollers, techniques, fit specs, warranty types and delivery.",
+      "modified": "2026-10-22"
+    },
+    {
+      "slug": "buying-guide/massage-chair-tracks-and-rollers",
+      "title": "Massage Chair Rollers & Tracks: S, L, SL and 2D to 4D",
+      "desc": "S-track vs L-track vs SL-track, and what 2D, 3D and 4D rollers usually mean — how to read manufacturer specs and test them in a showroom.",
+      "eyebrow": "Buying Guide",
+      "h1": "Massage Chair Rollers & Tracks: S, L, SL and 2D to 4D",
+      "lead": "The track decides where a massage chair's rollers reach; the roller type decides how they move. Here is how to read both on a spec sheet and test them before you buy.",
+      "modified": "2026-10-22"
+    },
+    {
       "slug": "showroom-guide/should-you-try-a-massage-chair-before-buying",
       "title": "Should You Try a Massage Chair Before Buying?",
-      "desc": "Why trying a massage chair before buying helps you judge comfort, body fit and pressure — and how to evaluate a chair at home if you can't visit.",
+      "desc": "Why trying a massage chair before buying matters, what to test, whether showrooms need an appointment, and how to judge a chair at home.",
       "eyebrow": "Showroom Guide",
       "h1": "Should You Try a Massage Chair Before Buying?",
-      "lead": "Comfort, body fit and pressure are personal, and specifications can't prove how a chair will feel for you. Here's what an in-person test reveals — and how to evaluate a chair at home if a showroom visit isn't possible."
+      "lead": "Comfort, body fit and pressure are personal, and specifications can't prove how a chair will feel for you. Here's what an in-person test reveals, and how to judge a chair at home if a visit isn't possible.",
+      "modified": "2026-10-22"
     },
     {
       "slug": "retailer-checklist/how-to-choose-a-massage-chair-retailer",
@@ -110,11 +130,12 @@
     },
     {
       "slug": "reviews-comparisons/best-massage-chair-brands-to-try-before-buying",
-      "title": "Massage Chair Brands to Know and Compare Before Buying",
-      "desc": "A neutral, unranked look at massage chair brands and a fair way to compare any brand on fit, warranty, service, delivery and reviews.",
+      "title": "Massage Chair Warranty Comparison: Brands to Know",
+      "desc": "An unranked look at massage chair brands, how to judge reliability, and a warranty comparison drawn from each manufacturer's official terms.",
       "eyebrow": "Reviews & Comparisons",
-      "h1": "Massage Chair Brands to Know and Compare Before Buying",
-      "lead": "The same brand names reappear across showrooms and listings. Recognizing them helps — but a fair comparison treats every brand the same way, against the same practical criteria."
+      "h1": "Massage Chair Warranty Comparison: Brands to Know Before Buying",
+      "lead": "The same brand names reappear across showrooms and listings. Recognizing them helps, but a fair comparison holds every brand to the same criteria, starting with its published warranty.",
+      "modified": "2026-10-22"
     },
     {
       "slug": "brands",
@@ -127,98 +148,110 @@
     {
       "slug": "brands/osaki-massage-chairs",
       "title": "Osaki Massage Chairs: What to Know Before You Buy",
-      "desc": "An independent buyer's guide to Osaki massage chairs — compare models, read reviews carefully, verify authorized retailers, and check warranty, service and delivery before buying.",
+      "desc": "An independent guide to Osaki massage chairs: compare models, read reviews carefully, and check Osaki's published warranty, service and delivery terms.",
       "eyebrow": "Brand Guide",
       "h1": "Osaki Massage Chairs: What to Know Before Buying or Trying One",
-      "lead": "Osaki is one of the most-searched and widest massage chair catalogs, which makes model confusion easy. This guide helps you compare comfort and body fit, test the exact model, read Osaki reviews carefully, confirm an authorized retailer, and check warranty, service and delivery before you buy."
+      "lead": "Osaki has one of the most-searched and widest massage chair catalogs, which makes model confusion easy. This guide helps you test the exact model, read Osaki reviews carefully, and check warranty, service and delivery before you buy.",
+      "modified": "2026-10-22"
     },
     {
       "slug": "brands/infinity-massage-chairs",
       "title": "Infinity Massage Chairs: What to Know Before You Buy",
-      "desc": "An independent buyer's guide to Infinity massage chairs — interpret heavy review volume, weigh price against support, compare models, and verify warranty, service and delivery.",
+      "desc": "An independent guide to Infinity massage chairs: read heavy review volume critically, compare models, and check Infinity's published warranty plans.",
       "eyebrow": "Brand Guide",
-      "h1": "Infinity Massage Chairs: What to Know Before Buying or Trying One",
-      "lead": "Infinity attracts a lot of reviews and model-by-model searching, so it's easy to over-trust ratings. This guide helps you read Infinity reviews critically, weigh price against service, compare models on real comfort and body fit, and confirm warranty, delivery and support before you buy."
+      "h1": "Infinity Massage Chairs: What to Know Before You Buy",
+      "lead": "Infinity attracts heavy review volume and model-by-model searching, so ratings are easy to over-trust. Read reviews critically, compare models on comfort and body fit, and confirm warranty, delivery and support before you buy.",
+      "modified": "2026-10-22"
     },
     {
       "slug": "brands/panasonic-massage-chairs",
       "title": "Panasonic Massage Chairs: What to Know Before You Buy",
-      "desc": "An independent buyer's guide to Panasonic massage chairs, including MAN1, MAK1 and MAF1 — reduce risk on a high-ticket purchase and check warranty, service and delivery.",
+      "desc": "An independent guide to Panasonic massage chairs, including MAN1, MAK1 and MAF1: reduce risk on a high-ticket chair and verify warranty and service.",
       "eyebrow": "Brand Guide",
       "h1": "Panasonic Massage Chairs: What to Know Before Buying or Trying One",
-      "lead": "Panasonic is positioned as premium, Japanese-engineered and high-ticket, which means the cost of a poor fit is higher. This guide helps you compare MAN1, MAK1 and MAF1 on real comfort, reduce purchase risk, read reviews carefully, and confirm warranty, service and delivery before you buy."
+      "lead": "Panasonic is positioned as premium, Japanese-engineered and high-ticket, so a poor fit costs more. This guide helps you compare the MAN1, MAK1 and MAF1 on real comfort and confirm warranty, service and delivery before you buy.",
+      "modified": "2026-10-22"
     },
     {
       "slug": "brands/ohco-massage-chairs",
       "title": "OHCO Massage Chairs: What to Know Before You Buy",
-      "desc": "An independent buyer's guide to OHCO massage chairs, including the M8, M8 NEO and R6 — judge luxury positioning and check fit, delivery, installation and service.",
+      "desc": "An independent guide to OHCO massage chairs, including the M.8 NEO and R.6: check fit, published track specs, delivery and OHCO's warranty terms.",
       "eyebrow": "Brand Guide",
-      "h1": "OHCO Massage Chairs: What to Know Before Buying or Trying One",
-      "lead": "OHCO sits at the ultra-premium, design-forward end of the market, where polish can outrun fit. This guide helps you look past the luxury framing to test the M8, M8 NEO or R6 for your body and room, and confirm delivery, installation, warranty and service before you buy."
+      "h1": "OHCO Massage Chairs: What to Know Before You Buy",
+      "lead": "OHCO sits at the ultra-premium, design-forward end of the market, where polish can outrun fit. This guide helps you test the M8, M8 NEO or R6 for your body and room, and confirm delivery, warranty and service before you buy.",
+      "modified": "2026-10-22"
     },
     {
       "slug": "brands/dcore-massage-chairs",
       "title": "D.Core Massage Chairs: What to Know Before You Buy",
-      "desc": "An independent buyer's guide to D.Core massage chairs, including the D.Core 2, Cirrus and Stratus — verify authentic, authorized buying and compare on real comfort.",
+      "desc": "An independent guide to D.Core massage chairs, including D.Core 2, Cirrus-JP and Stratus-JP: compare comfort and D.Core's published warranty terms.",
       "eyebrow": "Brand Guide",
-      "h1": "D.Core Massage Chairs: What to Know Before Buying or Trying One",
-      "lead": "D.Core is associated with Japanese craftsmanship and design, which can make authenticity and authorized buying the key questions. This guide helps you compare the D.Core 2, Cirrus and Stratus on real comfort and body fit — not design alone — and verify warranty, service and delivery before you buy."
+      "h1": "D.Core Massage Chairs: D.Core Cirrus, Stratus and D.Core 2",
+      "lead": "D.Core is linked with Japanese craftsmanship, so authenticity and authorized buying come first. Compare the D.Core 2, Cirrus and Stratus on real comfort, then verify warranty, service and delivery before you buy.",
+      "modified": "2026-10-22"
     },
     {
       "slug": "brands/positive-posture-massage-chairs",
       "title": "Positive Posture Massage Chairs: What to Know Before Buying",
-      "desc": "An independent buyer's guide to Positive Posture massage chairs, including DualTech, Brio and Solara — test AI-feature comfort claims and check warranty and delivery.",
+      "desc": "An independent guide to Positive Posture massage chairs, including DualTech, Brio and Solara: test AI-feature claims and check warranty and returns.",
       "eyebrow": "Brand Guide",
-      "h1": "Positive Posture Massage Chairs: What to Know Before Buying or Trying One",
-      "lead": "Positive Posture is often searched for comfort, value and AI-style features across the DualTech, Brio and Solara lines. This guide helps you test whether those features actually feel better for your body, read 'AI' and 'recovery' language carefully, and confirm warranty, service and delivery before you buy."
+      "h1": "Positive Posture Massage Chairs: What to Know Before Buying",
+      "lead": "Positive Posture draws interest for value and AI-style features. Test them on your body, then confirm warranty, service and delivery.",
+      "modified": "2026-10-22"
     },
     {
       "slug": "brands/koyo-massage-chairs",
       "title": "Koyo Massage Chairs: What to Know Before You Buy",
-      "desc": "An independent buyer's guide to Koyo massage chairs and the Koyo 303TS — weigh Japanese-made positioning, test comfort fit, and check warranty, service and delivery.",
+      "desc": "An independent guide to Koyo massage chairs and the 303TS: weigh Japanese-made positioning, check published fit specs, and verify warranty and service.",
       "eyebrow": "Brand Guide",
-      "h1": "Koyo Massage Chairs: What to Know Before Buying or Trying One",
-      "lead": "Koyo is a more focused, model-specific brand, with most interest centered on the Koyo 303TS and its Japanese-made positioning. This guide helps you test the 303TS for real comfort and body fit, compare value against premium alternatives, and confirm warranty, service and delivery before you buy."
+      "h1": "Koyo Massage Chairs: What to Know Before You Buy",
+      "lead": "Koyo is a focused brand, and most interest centers on the Koyo 303TS and its Japanese-made positioning. Use this guide to test the 303TS for comfort and body fit, then confirm warranty, service and delivery.",
+      "modified": "2026-10-22"
     },
     {
       "slug": "brands/ogawa-massage-chairs",
       "title": "Ogawa Massage Chairs: What to Know Before You Buy",
-      "desc": "An independent buyer's guide to Ogawa massage chairs, including Master Drive and Active XL — separate feature interest from real fit and check warranty and service.",
+      "desc": "An independent guide to Ogawa massage chairs: separate feature appeal from real fit, and confirm who issues the warranty and service for US purchases.",
       "eyebrow": "Brand Guide",
-      "h1": "Ogawa Massage Chairs: What to Know Before Buying or Trying One",
-      "lead": "Ogawa draws strong search and review interest around AI and diagnostic features across the Master Drive and Active lines. This guide helps you separate feature appeal from real comfort and body fit, read Ogawa reviews and pricing carefully, and confirm warranty, service and delivery before you buy."
+      "h1": "Ogawa Massage Chairs: What to Know Before You Buy",
+      "lead": "Ogawa draws strong interest in AI and diagnostic features across the Master Drive and Active lines. Separate feature appeal from comfort and body fit, read reviews carefully, then confirm warranty, service and delivery.",
+      "modified": "2026-10-22"
     },
     {
       "slug": "brands/kyota-massage-chairs",
       "title": "Kyota Massage Chairs: What to Know Before You Buy",
-      "desc": "An independent buyer's guide to Kyota massage chairs, including Genki, Nokori, Yugana, Hatsumei and Joubu — compare beyond deals and check warranty and service.",
+      "desc": "An independent guide to Kyota massage chairs, from Genki to Nokori: compare beyond deals and check Kyota's published warranty plans and service.",
       "eyebrow": "Brand Guide",
-      "h1": "Kyota Massage Chairs: What to Know Before Buying or Trying One",
-      "lead": "Kyota is often searched around deals and feature-rich value across the Genki, Nokori, Yugana, Hatsumei and Joubu models. This guide helps you look past discount framing to compare real comfort, body fit and support, and confirm warranty, service and delivery before chasing a price."
+      "h1": "Kyota Massage Chairs: What to Know Before You Buy",
+      "lead": "Kyota draws deal-minded shoppers to its Genki, Nokori, Yugana, Hatsumei and Joubu models. Use this guide to compare comfort, body fit and support, then confirm warranty, service and delivery before you chase a price.",
+      "modified": "2026-10-22"
     },
     {
       "slug": "brands/cozzia-massage-chairs",
       "title": "Cozzia Massage Chairs: What to Know Before You Buy",
-      "desc": "An independent buyer's guide to Cozzia massage chairs, including Quantum, Qi XE Pro and Qi SE — interpret reviews and reported problems and check warranty and service.",
+      "desc": "An independent guide to Cozzia massage chairs, including Quantum and Qi: interpret reviews and reported problems, and check warranty and service terms.",
       "eyebrow": "Brand Guide",
-      "h1": "Cozzia Massage Chairs: What to Know Before Buying or Trying One",
-      "lead": "Cozzia is searched for feature-rich value alongside reviews, pricing and reported problems across the Quantum, Qi XE Pro and Qi SE. This guide helps you interpret those signals fairly, compare real comfort and body fit, and confirm warranty, service and delivery before you buy."
+      "h1": "Cozzia Massage Chairs: What to Know Before You Buy",
+      "lead": "Shoppers look at the Cozzia Quantum, Qi XE Pro and Qi SE for feature-rich value, and often for reported problems too. Read those signals fairly, compare comfort and body fit, then confirm warranty, service and delivery.",
+      "modified": "2026-10-22"
     },
     {
       "slug": "brands/bodyfriend-massage-chairs",
       "title": "Bodyfriend Massage Chairs: What to Know Before Buying",
-      "desc": "An independent buyer's guide to Bodyfriend massage chairs, including the Falcon and Rovo walking technology — judge unusual features on real comfort and fit.",
+      "desc": "An independent guide to Bodyfriend massage chairs, including the Falcon: judge unusual features on real comfort and check Bodyfriend's warranty terms.",
       "eyebrow": "Brand Guide",
-      "h1": "Bodyfriend Massage Chairs: What to Know Before Buying or Trying One",
-      "lead": "Bodyfriend leans on luxury-tech differentiation and unusual feature sets like the Falcon's Rovo walking technology. This guide helps you judge whether those features matter for your body, test real comfort and usability, read claims carefully, and confirm warranty, service and delivery before you buy."
+      "h1": "Bodyfriend Massage Chairs: What to Know Before Buying",
+      "lead": "Bodyfriend leans on luxury-tech features like the Falcon's Rovo walking technology. Judge whether those features suit your body, then confirm warranty, service and delivery.",
+      "modified": "2026-10-22"
     },
     {
       "slug": "brands/fujiiryoki-massage-chairs",
       "title": "Fujiiryoki Massage Chairs: What to Know Before You Buy",
-      "desc": "An independent buyer's guide to Fujiiryoki massage chairs, including Cyber Relax and Calm Plus — weigh Japanese heritage, verify authenticity, and check warranty and service.",
+      "desc": "An independent guide to Fujiiryoki massage chairs, including Cyber-Relax and Calm Plus: weigh Japanese heritage and check warranty and service terms.",
       "eyebrow": "Brand Guide",
       "h1": "Fujiiryoki Massage Chairs: What to Know Before Buying or Trying One",
-      "lead": "Fujiiryoki is associated with long Japanese heritage and premium positioning across models like Cyber Relax and Calm Plus. This guide helps you weigh that heritage, verify authenticity and authorized buying, read reviews and 'medical-grade' language carefully, and confirm warranty, service and delivery before you buy."
+      "lead": "Fujiiryoki is associated with long Japanese heritage and premium positioning across models like Cyber Relax and Calm Plus. This guide helps you weigh that heritage, verify authorized buying, and confirm warranty, service and delivery before you buy.",
+      "modified": "2026-10-22"
     },
     {
       "slug": "editorial-standards",
